@@ -24,7 +24,7 @@ desicion = input("you are at a cross the road. Where do you wanna go left or rig
 if desicion == "right":
     print("GAME OVER")
 else:
-    desicion = input("""You come to a lake. there is an island in the middle of the lake \ntype wait to wait for a boat, Type swin to swim across """,)  
+    desicion = input("""You come to a lake. there is an island in the middle of the lake \nletype wait to wait for a boat, Type swin to swim across """,)  
     if(desicion == "swim"):
         print("GAME OVER")
     else:
