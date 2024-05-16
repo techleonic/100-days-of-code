@@ -19,3 +19,11 @@ print(states_of_america)
 #Adding a list to a list
 states_of_america.extend(["Danialan","Kenialand"])
 print(states_of_america)
+
+#nested list(a list with in a list)
+fruits = ["Strawberries","Nectarines", "Apples","Grapes","Peaches","Cherries","Pears"]
+Vegetables = ["Spinach","Kale","Tomatoes","Celery","Potatoes"]
+
+dirty_dozen = [fruits, Vegetables]
+print(dirty_dozen)
+print(dirty_dozen[1][1])
