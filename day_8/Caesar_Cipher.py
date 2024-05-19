@@ -8,27 +8,25 @@ text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 
 
-def encryp(normal_text,shift_number):
+def encryp(normal_text,shift_number,user_direction):
     encrypt_text =[]
     for i in normal_text:
         index_alphabet = alphabet.index(i)
-        letter_shift = alphabet[index_alphabet+shift_number]
+        number =  + shift_number if user_direction == "encode" else - shift_number
+        letter_shift = alphabet[index_alphabet+number]
         encrypt_text.append(letter_shift)
     return encrypt_text
 
-def decrypt (normal_text, shift_number):
+"""def decrypt (normal_text, shift_number):
     decrypt_text=[]
     for i in normal_text:
         index_alphabet = alphabet.index(i)
         letter_shift = alphabet[index_alphabet-shift_number]
         decrypt_text.append(letter_shift)
-    return decrypt_text
+    return decrypt_text"""
 
-if direction == "encode":
-    text= encryp(normal_text=text,shift_number=shift)
-    print("".join(text))
-else:
-    text=decrypt(normal_text=text,shift_number=shift)
-    print("".join(text))
+
+text= encryp(normal_text=text,shift_number=shift,user_direction=direction)
+print("".join(text))
 
 
