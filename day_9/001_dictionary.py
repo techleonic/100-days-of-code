@@ -20,3 +20,9 @@ for key in programming_dictionary:
     print(key)
     print(programming_dictionary[key])
 
+order = {
+    "starter": {1: "Salad", 2: "Soup"},
+    "main": {1: ["Burger", "Fries"], 2: ["Steak"]},
+    "dessert": {1: ["Ice Cream"], 2: []},
+}
+print["main"][]
