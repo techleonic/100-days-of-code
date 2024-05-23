@@ -37,7 +37,7 @@ def is_resource_sufficient(other_resource):
     for key in other_resource:
         if other_resource[key] > resources[key]:
             print(f"There is not enught{key} ")
-            False
+            return False
         else:
             return True
 
@@ -45,7 +45,7 @@ def process_coins():
     """Ask for user's coins and returns Total"""
     print("insert Coin")
     total =  int(input("How many Quarters ")) *0.05
-    total += int(input("How many deimes ")) * 0.1
+    total += int(input("How many dimes ")) * 0.1
     total += int(input("How many nickels ")) * 0.05
     total += int(input("How many pennies ")) * 0.01
     return total
@@ -58,11 +58,11 @@ def is_transaction_successful(payment,cost):
         profit += cost
         return True
     else:
-        print("is not enugh money ")
+        print("is not enough money ")
         return False
 
 def make_coffe(drink_name, other_ingredients):
-    """Deduct de resourcess"""
+    """Deduct de resources"""
     for item in other_ingredients:
         print( resources[item],other_ingredients[item])
         resources[item]-=other_ingredients[item]
