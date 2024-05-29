@@ -1,8 +1,10 @@
-import turtle
+import math as m #su cam inmport an put a alias name
+m.sin(8) #then you can use it with the alias name
 from turtle import Turtle,Screen
 
-tutle =  Turtle()
-tutle.color("red")
+
+turtle =  Turtle()
+turtle.color("red")
 position = turtle.pos()
 
 for i in range(4):
