@@ -18,10 +18,12 @@ class QuizBrain:  # this is a class that will have all the questions and answers
         return self.question_number < len(self.question_list)
 
     def check_answer(self, user_answer, current_answer):
+        """ Given two answers it outputs if It's correct or not also increase the score"""
         if user_answer.lower() == current_answer.lower():
             print("you got it right")
-            self.score +=1
+            self.score += 1
         else:
             print("you got it wrong")
         print(f"The correct answer is {current_answer}")
         print(f"Your current score is {self.score}/{self.question_number}")
+        print("\n")
