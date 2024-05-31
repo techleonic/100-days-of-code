@@ -5,7 +5,8 @@ from turtle import Turtle,Screen
 
 turtle =  Turtle()
 turtle.color("red")
-position = turtle.pos()
+
+#position = turtle.pos()
 
 for i in range(4):
     turtle.right(90)
