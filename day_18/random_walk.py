@@ -18,7 +18,7 @@ my_turtle.pensize(15)
 my_turtle.speed(20)
 
 
-for _ in range(100):
+for _ in range(500):
     my_turtle.color(random_color())
     my_turtle.forward(50)
     my_turtle.setheading(random.choice(directions))
