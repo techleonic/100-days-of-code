@@ -28,9 +28,9 @@ def check_winner(turtle):
 def move_random():
     while True:
         for turtle in turles:
+            turtle.forward(random.randint(1, 10))
             if turtle.xcor() >= 230:
                 return turtle.pencolor()
-            turtle.forward(random.randint(1, 10))
         # turtle.forward(random.randint(1, 10))
         # if turtle.xcor() == 230:
         #     turtle.forward(random.randint(1,10))
