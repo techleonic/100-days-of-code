@@ -5,6 +5,7 @@ my_turtle = turtle_module.Turtle()
 turtle_module.colormode(255)
 list_colors = [(252, 138, 52), (49, 171, 90), (120, 185, 140),  (249, 75, 110)]
 my_turtle.penup()
+my_turtle.hideturtle()
 my_turtle.setheading(225)
 my_turtle.forward(300)
 my_turtle.setheading(0)
