@@ -34,15 +34,13 @@ while game_is_one :
         score.update_score()
 
     #DETEC COLITION WITH WALL
-    if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
+    if snake.head.xcor() > 290 or snake.head.xcor() < -290 or snake.head.ycor() > 290 or snake.head.ycor() < -290:
         game_is_one = False
         score.game_over()
 
     #detec head collision eith tail
-    for segment in snake.segments:
-        if segment == snake.head:
-            pass
-        elif snake.head.distance(segment) < 10:
+    for segment in snake.segments[1:]:
+        if snake.head.distance(segment) < 10:
             game_is_one = False
             score.game_over()
 
