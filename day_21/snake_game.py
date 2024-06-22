@@ -20,17 +20,30 @@ screen.onkey(snake.left,"Left")
 screen.onkey(snake.right,"Right")
 
 score = ScoreBoard()
+game_is_one = True
 
-while True :
+while game_is_one :
     screen.update()
     time.sleep(0.1)
     snake.move()
 
     #Detec collision with food
-    if  snake.segments[-1].distance(food) < 15 :
+    if  snake.head.distance(food) < 15 :
         food.refersh()
+        snake.extend()
         score.update_score()
 
+    #DETEC COLITION WITH WALL
+    if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
+        game_is_one = False
+        score.game_over()
 
+    #detec head collision eith tail
+    for segment in snake.segments:
+        if segment == snake.head:
+            pass
+        elif snake.head.distance(segment) < 10:
+            game_is_one = False
+            score.game_over()
 
 screen.exitonclick()
