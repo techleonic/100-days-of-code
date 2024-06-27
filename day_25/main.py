@@ -14,29 +14,36 @@
 # print(temperatures)
 
 import pandas
+#panda can read CSV
 data = pandas.read_csv("weather_data.csv")
-
+#Data frame
 print(type(data))
+#every column is a series
 print(type(data["temp"]))
 print("\n")
 
+#convert to dict
 data_dict =  data.to_dict()
 print(data_dict)
 print("\n")
-
+#temperature to list
 temp_list = data["temp"].to_list()
 print(temp_list)
 print("\n")
 
+#avarage temp
 average = data["temp"].mean()
 print(average)
 print("\n")
 
+#max temperature
 print(data["temp"].max())
 print("\n")
 
+#serie of conditions
 print(data["condition"])
 print(data.condition)
+print("\n")
 
 #get row
 print(data[data.day == "Monday"])
