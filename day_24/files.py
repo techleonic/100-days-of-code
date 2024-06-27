@@ -12,7 +12,7 @@ with open("my_file.txt",mode="a") as file:
     file.write("\nmy second favorite language is Dart")
 
 #read
-with open("my_file.txt",mode="r") as file:
+with open("C:/Users/LeonidaProgramimg/Desktop/my_file.txt",mode="r") as file:
     content = file.read()
     print(content)
 

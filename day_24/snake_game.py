@@ -42,4 +42,5 @@ while game_is_one :
         if snake.head.distance(segment) < 10:
             score.reset()
 
+
 screen.exitonclick()
