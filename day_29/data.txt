@@ -1,0 +1,2 @@
+amazon | Leonidas@gmail.com | 123456
+ebay | Leonidas@gmail.com | 321654
