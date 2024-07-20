@@ -40,7 +40,7 @@ def save():
     else:
         with open("data.json", "w") as data_file:
             # data_file.write(f"{website} | {email} | {password}\n")
-            json.dump(new_data,data_file)
+            json.dump(new_data,data_file,indent=40)
             website_entry.delete(0, END)
             password_entry.delete(0, END)
 
