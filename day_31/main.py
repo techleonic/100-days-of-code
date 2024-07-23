@@ -6,9 +6,16 @@ import random
 BACKGROUND_COLOR = "#B1DDC6"
 word_lan = "French"
 current_word = {}
+word_dict = {}
 
-df = pandas.read_csv("data/french_words.csv")
-word_dict = df.to_dict(orient="records")
+try:
+    df = pandas.read_csv("data/words_to_learn.cv")
+except FileNotFoundError:
+    original_data = pandas.read_csv("data/french_words.csv")
+    word_dict = original_data.to_dict(orient="records")
+else:
+    word_dict = df.to_dict(orient="records")
+
 # print(word_dict[0]["French"])
 # print(word_dict[0]["English"])
 
@@ -27,11 +34,15 @@ def random_word():
 def flip_card():
     global word_lan
     global  current_word
-    word_lan = "English" if word_lan == "French" else "French"
-    canvas.itemconfig(title,text=word_lan,fill="white")
-    canvas.itemconfig(word, text=f"{current_word[word_lan]}",fill="white")
+    canvas.itemconfig(title,text="English",fill="white")
+    canvas.itemconfig(word, text=f"{current_word["English"]}",fill="white")
     canvas.itemconfig(card_background, image=card_back)
 
+def is_known():
+    word_dict.remove(current_word)
+    data = pandas.DataFrame(word_dict)
+    data.to_csv("data/words_to_learn.cv", index=False)
+    random_word()
 
 window =  Tk()
 window.title("Flashy")
@@ -55,7 +66,7 @@ unknown_button = Button(image=cross_img,highlightthickness=0,command=random_word
 unknown_button.grid(row=1, column=0)
 
 check_img =  PhotoImage(file="images/right.png")
-known_button = Button(image=check_img,highlightthickness=0,command=random_word)
+known_button = Button(image=check_img,highlightthickness=0,command=is_known)
 known_button.grid(row=1,column=1)
 
 
