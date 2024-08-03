@@ -1,5 +1,4 @@
 import requests
-
 content = requests.get(url="http://api.open-notify.org/iss-now.json")
 content.raise_for_status()
 
