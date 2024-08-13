@@ -8,7 +8,8 @@ print(date)
 pixela_endpoint = "https://pixe.la/v1/users"
 username = "leotechnic27"
 graph = "graph1"
-graph_endpoint = f"{pixela_endpoint}/{username}/graphs/{graph}"
+
+graph_endpoint = f"{pixela_endpoint}/{username}/graphs/{graph}/"
 
 params = {
     "date":str(date),
