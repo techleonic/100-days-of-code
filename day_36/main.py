@@ -46,6 +46,7 @@ news_params = {
 }
 
 response = requests.get(NEWS_ENDPOINT, params=news_params)
+print(response.url)
 response.raise_for_status()
 articles = response.json()["articles"]
 for article in articles :
