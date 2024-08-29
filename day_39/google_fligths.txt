@@ -1,0 +1,112 @@
+{
+  'flights': [
+    {
+      'departure_airport': {
+        'name': 'Augusto Cesar Sandino International Airport',
+        'id': 'MGA',
+        'time': '2024-08-29 13:20'
+      },
+      'arrival_airport': {
+        'name': 'George Bush Intercontinental Airport',
+        'id': 'IAH',
+        'time': '2024-08-29 17:46'
+      },
+      'duration': 206,
+      'airplane': 'Boeing 737',
+      'airline': 'United',
+      'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/UA.png',
+      'travel_class': 'Economy',
+      'flight_number': 'UA 1433',
+      'legroom': '30 in',
+      'extensions': [
+        'Average legroom (30 in)',
+        'Stream media to your device',
+        'Carbon emissions estimate: 230 kg'
+      ],
+      'often_delayed_by_over_30_min': True
+    },
+    {
+      'departure_airport': {
+        'name': 'George Bush Intercontinental Airport',
+        'id': 'IAH',
+        'time': '2024-08-30 12:10'
+      },
+      'arrival_airport': {
+        'name': 'Dulles International Airport',
+        'id': 'IAD',
+        'time': '2024-08-30 16:17'
+      },
+      'duration': 187,
+      'airplane': 'Boeing 737',
+      'airline': 'United',
+      'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/UA.png',
+      'travel_class': 'Economy',
+      'flight_number': 'UA 796',
+      'legroom': '30 in',
+      'extensions': [
+        'Average legroom (30 in)',
+        'Wi-Fi for a fee',
+        'In-seat power outlet',
+        'Stream media to your device',
+        'Carbon emissions estimate: 161 kg'
+      ]
+    },
+    {
+      'departure_airport': {
+        'name': 'Dulles International Airport',
+        'id': 'IAD',
+        'time': '2024-08-30 17:30'
+      },
+      'arrival_airport': {
+        'name': 'Paris Charles de Gaulle Airport',
+        'id': 'CDG',
+        'time': '2024-08-31 07:05'
+      },
+      'duration': 455,
+      'airplane': 'Boeing 777',
+      'airline': 'United',
+      'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/UA.png',
+      'travel_class': 'Economy',
+      'flight_number': 'UA 915',
+      'legroom': '31 in',
+      'extensions': [
+        'Average legroom (31 in)',
+        'Wi-Fi for a fee',
+        'In-seat power & USB outlets',
+        'On-demand video',
+        'Carbon emissions estimate: 562 kg'
+      ],
+      'overnight': True,
+      'often_delayed_by_over_30_min': True
+    }
+  ],
+  'layovers': [
+    {
+      'duration': 1104,
+      'name': 'George Bush Intercontinental Airport',
+      'id': 'IAH',
+      'overnight': True
+    },
+    {
+      'duration': 73,
+      'name': 'Dulles International Airport',
+      'id': 'IAD'
+    }
+  ],
+  'total_duration': 2025,
+  'carbon_emissions': {
+    'this_flight': 955000,
+    'typical_for_this_route': 777000,
+    'difference_percent': 23
+  },
+  'price': 1580,
+  'type': 'Round trip',
+  'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/UA.png',
+  'extensions': [
+    'Checked baggage for a fee',
+    'Fare non-refundable, taxes may be refundable',
+    'No ticket changes',
+    'Bag and fare conditions depend on the return flight'
+  ],
+  'departure_token': 'WyJDalJJUVU5dVJsOWtRVlZHV210QlFVMW5aMmRDUnkwdExTMHRMUzB0YjNsaVozWXhNRUZCUVVGQlIySlJkRUpOUlZOTWVXMUJFaEpWUVRFME16TjhWVUUzT1RaOFZVRTVNVFVhQ3dqNzBRa1FBaG9EVlZORU9CeHcrOUVKIixbWyJNR0EiLCIyMDI0LTA4LTI5IiwiSUFIIixudWxsLCJVQSIsIjE0MzMiXSxbIklBSCIsIjIwMjQtMDgtMzAiLCJJQUQiLG51bGwsIlVBIiwiNzk2Il0sWyJJQUQiLCIyMDI0LTA4LTMwIiwiQ0RHIixudWxsLCJVQSIsIjkxNSJdXV0='
+}
