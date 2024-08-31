@@ -1,0 +1,1560 @@
+{
+    "search_metadata": {
+        "id": "66d32b2fbe14971f60adecd8",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/17183971e17b4526/66d32b2fbe14971f60adecd8.json",
+        "created_at": "2024-08-31 14:39:43 UTC",
+        "processed_at": "2024-08-31 14:39:43 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&tfs=CBwQAhoeEgoyMDI0LTA5LTAxagcIARIDTUdBcgcIARIDQ0RHGh4SCjIwMjQtMDktMDhqBwgBEgNDREdyBwgBEgNNR0FCAQFIAXABmAEB",
+        "raw_html_file": "https://serpapi.com/searches/17183971e17b4526/66d32b2fbe14971f60adecd8.html",
+        "prettify_html_file": "https://serpapi.com/searches/17183971e17b4526/66d32b2fbe14971f60adecd8.prettify",
+        "total_time_taken": 0.64
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "hl": "en",
+        "gl": "us",
+        "departure_id": "MGA",
+        "arrival_id": "CDG",
+        "outbound_date": "2024-09-01",
+        "return_date": "2024-09-08"
+    },
+    "best_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Augusto Cesar Sandino International Airport",
+                        "id": "MGA",
+                        "time": "2024-09-01 13:20"
+                    },
+                    "arrival_airport": {
+                        "name": "George Bush Intercontinental Airport",
+                        "id": "IAH",
+                        "time": "2024-09-01 17:46"
+                    },
+                    "duration": 206,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1433",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 239 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "George Bush Intercontinental Airport",
+                        "id": "IAH",
+                        "time": "2024-09-02 07:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-09-02 11:38"
+                    },
+                    "duration": 183,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1549",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 166 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-09-02 17:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-09-03 07:05"
+                    },
+                    "duration": 455,
+                    "airplane": "Boeing 777",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 915",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 571 kg"
+                    ],
+                    "overnight": true,
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 829,
+                    "name": "George Bush Intercontinental Airport",
+                    "id": "IAH",
+                    "overnight": true
+                },
+                {
+                    "duration": 352,
+                    "name": "Dulles International Airport",
+                    "id": "IAD"
+                }
+            ],
+            "total_duration": 2025,
+            "carbon_emissions": {
+                "this_flight": 978000,
+                "typical_for_this_route": 778000,
+                "difference_percent": 26
+            },
+            "price": 1584,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "extensions": [
+                "Checked baggage for a fee",
+                "Fare non-refundable, taxes may be refundable",
+                "No ticket changes",
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "departure_token": "WyJDalJJUjJOdllqTldPVk5WVlVsQlNtVkZSa0ZDUnkwdExTMHRMUzB0TFc5clltUm9NMEZCUVVGQlIySlVTM3BCUVdWdlNrOUJFaE5WUVRFME16TjhWVUV4TlRRNWZGVkJPVEUxR2dzSTlkUUpFQUlhQTFWVFJEZ2NjUFhVQ1E9PSIsW1siTUdBIiwiMjAyNC0wOS0wMSIsIklBSCIsbnVsbCwiVUEiLCIxNDMzIl0sWyJJQUgiLCIyMDI0LTA5LTAyIiwiSUFEIixudWxsLCJVQSIsIjE1NDkiXSxbIklBRCIsIjIwMjQtMDktMDIiLCJDREciLG51bGwsIlVBIiwiOTE1Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Augusto Cesar Sandino International Airport",
+                        "id": "MGA",
+                        "time": "2024-09-01 12:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Aeropuerto Internacional Benito Ju\u00e1rez",
+                        "id": "MEX",
+                        "time": "2024-09-01 15:20"
+                    },
+                    "duration": 170,
+                    "airplane": "Embraer 190",
+                    "airline": "Aeromexico",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AM.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AM 651",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 196 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Aeropuerto Internacional Benito Ju\u00e1rez",
+                        "id": "MEX",
+                        "time": "2024-09-01 19:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-09-02 14:45"
+                    },
+                    "duration": 655,
+                    "airplane": "Boeing 747",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 499",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 727 kg"
+                    ],
+                    "overnight": true,
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-09-02 16:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-09-02 17:45"
+                    },
+                    "duration": 75,
+                    "airplane": "Airbus A321",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 1040",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "Carbon emissions estimate: 65 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 270,
+                    "name": "Aeropuerto Internacional Benito Ju\u00e1rez",
+                    "id": "MEX"
+                },
+                {
+                    "duration": 105,
+                    "name": "Frankfurt Airport",
+                    "id": "FRA"
+                }
+            ],
+            "total_duration": 1275,
+            "carbon_emissions": {
+                "this_flight": 990000,
+                "typical_for_this_route": 778000,
+                "difference_percent": 27
+            },
+            "price": 1746,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "extensions": [
+                "1 checked bag up to 23 kg included",
+                "Fare non-refundable, taxes may be refundable",
+                "Free change, possible fare difference",
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "departure_token": "WyJDalJJUjJOdllqTldPVk5WVlVsQlNtVkZSa0ZDUnkwdExTMHRMUzB0TFc5clltUm9NMEZCUVVGQlIySlVTM3BCUVdWdlNrOUJFaEpCVFRZMU1YeE1TRFE1T1h4TVNERXdOREFhQ3dqcjB3b1FBaG9EVlZORU9CeHc2OU1LIixbWyJNR0EiLCIyMDI0LTA5LTAxIiwiTUVYIixudWxsLCJBTSIsIjY1MSJdLFsiTUVYIiwiMjAyNC0wOS0wMSIsIkZSQSIsbnVsbCwiTEgiLCI0OTkiXSxbIkZSQSIsIjIwMjQtMDktMDIiLCJDREciLG51bGwsIkxIIiwiMTA0MCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Augusto Cesar Sandino International Airport",
+                        "id": "MGA",
+                        "time": "2024-09-01 12:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Aeropuerto Internacional Benito Ju\u00e1rez",
+                        "id": "MEX",
+                        "time": "2024-09-01 15:20"
+                    },
+                    "duration": 170,
+                    "airplane": "Embraer 190",
+                    "airline": "Aeromexico",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AM.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AM 651",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 196 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Aeropuerto Internacional Benito Ju\u00e1rez",
+                        "id": "MEX",
+                        "time": "2024-09-01 17:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-09-02 11:55"
+                    },
+                    "duration": 655,
+                    "airplane": "Boeing 787",
+                    "airline": "Aeromexico",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AM.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AM 5",
+                    "legroom": "32 in",
+                    "extensions": [
+                        "Above average legroom (32 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 661 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 100,
+                    "name": "Aeropuerto Internacional Benito Ju\u00e1rez",
+                    "id": "MEX"
+                }
+            ],
+            "total_duration": 925,
+            "carbon_emissions": {
+                "this_flight": 858000,
+                "typical_for_this_route": 778000,
+                "difference_percent": 10
+            },
+            "price": 2535,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AM.png",
+            "extensions": [
+                "1 checked bag up to 25 kg included",
+                "Fare non-refundable, taxes may be refundable",
+                "Ticket changes for a fee",
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "departure_token": "WyJDalJJUjJOdllqTldPVk5WVlVsQlNtVkZSa0ZDUnkwdExTMHRMUzB0TFc5clltUm9NMEZCUVVGQlIySlVTM3BCUVdWdlNrOUJFZ2xCVFRZMU1YeEJUVFVhQ3dpd3ZBOFFBaG9EVlZORU9CeHdzTHdQIixbWyJNR0EiLCIyMDI0LTA5LTAxIiwiTUVYIixudWxsLCJBTSIsIjY1MSJdLFsiTUVYIiwiMjAyNC0wOS0wMSIsIkNERyIsbnVsbCwiQU0iLCI1Il1dXQ=="
+        }
+    ],
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Augusto Cesar Sandino International Airport",
+                        "id": "MGA",
+                        "time": "2024-09-01 13:20"
+                    },
+                    "arrival_airport": {
+                        "name": "George Bush Intercontinental Airport",
+                        "id": "IAH",
+                        "time": "2024-09-01 17:46"
+                    },
+                    "duration": 206,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1433",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 239 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "George Bush Intercontinental Airport",
+                        "id": "IAH",
+                        "time": "2024-09-01 20:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-09-01 23:59"
+                    },
+                    "duration": 179,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1844",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 166 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Dulles International Airport",
+                        "id": "IAD",
+                        "time": "2024-09-02 17:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-09-03 07:05"
+                    },
+                    "duration": 455,
+                    "airplane": "Boeing 777",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 915",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 571 kg"
+                    ],
+                    "overnight": true,
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 134,
+                    "name": "George Bush Intercontinental Airport",
+                    "id": "IAH"
+                },
+                {
+                    "duration": 1051,
+                    "name": "Dulles International Airport",
+                    "id": "IAD",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 2025,
+            "carbon_emissions": {
+                "this_flight": 978000,
+                "typical_for_this_route": 778000,
+                "difference_percent": 26
+            },
+            "price": 1584,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "extensions": [
+                "Checked baggage for a fee",
+                "Fare non-refundable, taxes may be refundable",
+                "No ticket changes",
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "departure_token": "WyJDalJJUjJOdllqTldPVk5WVlVsQlNtVkZSa0ZDUnkwdExTMHRMUzB0TFc5clltUm9NMEZCUVVGQlIySlVTM3BCUVdWdlNrOUJFaE5WUVRFME16TjhWVUV4T0RRMGZGVkJPVEUxR2dzSTlkUUpFQUlhQTFWVFJEZ2NjUFhVQ1E9PSIsW1siTUdBIiwiMjAyNC0wOS0wMSIsIklBSCIsbnVsbCwiVUEiLCIxNDMzIl0sWyJJQUgiLCIyMDI0LTA5LTAxIiwiSUFEIixudWxsLCJVQSIsIjE4NDQiXSxbIklBRCIsIjIwMjQtMDktMDIiLCJDREciLG51bGwsIlVBIiwiOTE1Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Augusto Cesar Sandino International Airport",
+                        "id": "MGA",
+                        "time": "2024-09-01 09:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Miami International Airport",
+                        "id": "MIA",
+                        "time": "2024-09-01 13:55"
+                    },
+                    "duration": 150,
+                    "airplane": "Airbus A320",
+                    "airline": "Avianca",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AV 396",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 146 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Miami International Airport",
+                        "id": "MIA",
+                        "time": "2024-09-01 16:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-09-02 07:50"
+                    },
+                    "duration": 550,
+                    "airplane": "Boeing 747",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 463",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 595 kg"
+                    ],
+                    "overnight": true,
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2024-09-02 12:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-09-02 13:40"
+                    },
+                    "duration": 75,
+                    "airplane": "Airbus A320",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 1034",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Carbon emissions estimate: 61 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 165,
+                    "name": "Miami International Airport",
+                    "id": "MIA"
+                },
+                {
+                    "duration": 275,
+                    "name": "Frankfurt Airport",
+                    "id": "FRA"
+                }
+            ],
+            "total_duration": 1215,
+            "carbon_emissions": {
+                "this_flight": 805000,
+                "typical_for_this_route": 778000,
+                "difference_percent": 3
+            },
+            "price": 2237,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "extensions": [
+                "1 checked bag up to 23 kg included",
+                "Fare non-refundable, taxes may be refundable",
+                "Free change, possible fare difference",
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "departure_token": "WyJDalJJUjJOdllqTldPVk5WVlVsQlNtVkZSa0ZDUnkwdExTMHRMUzB0TFc5clltUm9NMEZCUVVGQlIySlVTM3BCUVdWdlNrOUJFaEpCVmpNNU5ueE1TRFEyTTN4TVNERXdNelFhQ3dqMTBnMFFBaG9EVlZORU9CeHc5ZElOIixbWyJNR0EiLCIyMDI0LTA5LTAxIiwiTUlBIixudWxsLCJBViIsIjM5NiJdLFsiTUlBIiwiMjAyNC0wOS0wMSIsIkZSQSIsbnVsbCwiTEgiLCI0NjMiXSxbIkZSQSIsIjIwMjQtMDktMDIiLCJDREciLG51bGwsIkxIIiwiMTAzNCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Augusto Cesar Sandino International Airport",
+                        "id": "MGA",
+                        "time": "2024-09-01 13:20"
+                    },
+                    "arrival_airport": {
+                        "name": "George Bush Intercontinental Airport",
+                        "id": "IAH",
+                        "time": "2024-09-01 17:46"
+                    },
+                    "duration": 206,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1433",
+                    "ticket_also_sold_by": [
+                        "Air Canada"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 239 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "George Bush Intercontinental Airport",
+                        "id": "IAH",
+                        "time": "2024-09-02 07:20"
+                    },
+                    "arrival_airport": {
+                        "name": "Toronto Pearson International Airport",
+                        "id": "YYZ",
+                        "time": "2024-09-02 11:35"
+                    },
+                    "duration": 195,
+                    "airplane": "Airbus A220-300 Passenger",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 590",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 183 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Toronto Pearson International Airport",
+                        "id": "YYZ",
+                        "time": "2024-09-02 20:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-09-03 10:10"
+                    },
+                    "duration": 445,
+                    "airplane": "Boeing 777",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 872",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 489 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 814,
+                    "name": "George Bush Intercontinental Airport",
+                    "id": "IAH",
+                    "overnight": true
+                },
+                {
+                    "duration": 550,
+                    "name": "Toronto Pearson International Airport",
+                    "id": "YYZ"
+                }
+            ],
+            "total_duration": 2210,
+            "carbon_emissions": {
+                "this_flight": 913000,
+                "typical_for_this_route": 778000,
+                "difference_percent": 17
+            },
+            "price": 2479,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "extensions": [
+                "1 checked bag up to 23 kg included",
+                "Fare non-refundable, taxes may be refundable",
+                "Free change, possible fare difference",
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "departure_token": "WyJDalJJUjJOdllqTldPVk5WVlVsQlNtVkZSa0ZDUnkwdExTMHRMUzB0TFc5clltUm9NMEZCUVVGQlIySlVTM3BCUVdWdlNrOUJFaEpWUVRFME16TjhRVU0xT1RCOFFVTTROeklhQ3dpTWtBOFFBaG9EVlZORU9CeHdqSkFQIixbWyJNR0EiLCIyMDI0LTA5LTAxIiwiSUFIIixudWxsLCJVQSIsIjE0MzMiXSxbIklBSCIsIjIwMjQtMDktMDIiLCJZWVoiLG51bGwsIkFDIiwiNTkwIl0sWyJZWVoiLCIyMDI0LTA5LTAyIiwiQ0RHIixudWxsLCJBQyIsIjg3MiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Augusto Cesar Sandino International Airport",
+                        "id": "MGA",
+                        "time": "2024-09-01 13:20"
+                    },
+                    "arrival_airport": {
+                        "name": "George Bush Intercontinental Airport",
+                        "id": "IAH",
+                        "time": "2024-09-01 17:46"
+                    },
+                    "duration": 206,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1433",
+                    "ticket_also_sold_by": [
+                        "Air Canada"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 239 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "George Bush Intercontinental Airport",
+                        "id": "IAH",
+                        "time": "2024-09-02 13:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Toronto Pearson International Airport",
+                        "id": "YYZ",
+                        "time": "2024-09-02 17:45"
+                    },
+                    "duration": 195,
+                    "airplane": "Airbus A220-300 Passenger",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 592",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 183 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Toronto Pearson International Airport",
+                        "id": "YYZ",
+                        "time": "2024-09-02 20:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-09-03 10:10"
+                    },
+                    "duration": 445,
+                    "airplane": "Boeing 777",
+                    "airline": "Air Canada",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AC 872",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 489 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 1184,
+                    "name": "George Bush Intercontinental Airport",
+                    "id": "IAH",
+                    "overnight": true
+                },
+                {
+                    "duration": 180,
+                    "name": "Toronto Pearson International Airport",
+                    "id": "YYZ"
+                }
+            ],
+            "total_duration": 2210,
+            "carbon_emissions": {
+                "this_flight": 913000,
+                "typical_for_this_route": 778000,
+                "difference_percent": 17
+            },
+            "price": 2479,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "extensions": [
+                "1 checked bag up to 23 kg included",
+                "Fare non-refundable, taxes may be refundable",
+                "Free change, possible fare difference",
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "departure_token": "WyJDalJJUjJOdllqTldPVk5WVlVsQlNtVkZSa0ZDUnkwdExTMHRMUzB0TFc5clltUm9NMEZCUVVGQlIySlVTM3BCUVdWdlNrOUJFaEpWUVRFME16TjhRVU0xT1RKOFFVTTROeklhQ3dpTWtBOFFBaG9EVlZORU9CeHdqSkFQIixbWyJNR0EiLCIyMDI0LTA5LTAxIiwiSUFIIixudWxsLCJVQSIsIjE0MzMiXSxbIklBSCIsIjIwMjQtMDktMDIiLCJZWVoiLG51bGwsIkFDIiwiNTkyIl0sWyJZWVoiLCIyMDI0LTA5LTAyIiwiQ0RHIixudWxsLCJBQyIsIjg3MiJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Augusto Cesar Sandino International Airport",
+                        "id": "MGA",
+                        "time": "2024-09-01 09:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Miami International Airport",
+                        "id": "MIA",
+                        "time": "2024-09-01 13:55"
+                    },
+                    "duration": 150,
+                    "airplane": "Airbus A320",
+                    "airline": "Avianca",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AV 396",
+                    "ticket_also_sold_by": [
+                        "Iberia"
+                    ],
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 146 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Miami International Airport",
+                        "id": "MIA",
+                        "time": "2024-09-01 16:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+                        "id": "MAD",
+                        "time": "2024-09-02 07:45"
+                    },
+                    "duration": 540,
+                    "airplane": "Airbus A330",
+                    "airline": "Iberia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IB.png",
+                    "travel_class": "Premium Economy",
+                    "flight_number": "IB 6124",
+                    "extensions": [
+                        "Extra reclining seat",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 796 kg"
+                    ],
+                    "overnight": true,
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+                        "id": "MAD",
+                        "time": "2024-09-02 09:50"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-09-02 11:55"
+                    },
+                    "duration": 125,
+                    "airplane": "Airbus A321",
+                    "airline": "Iberia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IB.png",
+                    "travel_class": "Economy",
+                    "flight_number": "IB 3422",
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 102 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 170,
+                    "name": "Miami International Airport",
+                    "id": "MIA"
+                },
+                {
+                    "duration": 125,
+                    "name": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+                    "id": "MAD"
+                }
+            ],
+            "total_duration": 1110,
+            "carbon_emissions": {
+                "this_flight": 1045000,
+                "typical_for_this_route": 778000,
+                "difference_percent": 34
+            },
+            "price": 2625,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "extensions": [
+                "1 checked bag up to 23 kg included",
+                "Fare non-refundable, taxes may be refundable",
+                "Ticket changes for a fee",
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "departure_token": "WyJDalJJUjJOdllqTldPVk5WVlVsQlNtVkZSa0ZDUnkwdExTMHRMUzB0TFc5clltUm9NMEZCUVVGQlIySlVTM3BCUVdWdlNrOUJFaE5CVmpNNU5ueEpRall4TWpSOFNVSXpOREl5R2dzSW5ZSVFFQUlhQTFWVFJEZ2NjSjJDRUE9PSIsW1siTUdBIiwiMjAyNC0wOS0wMSIsIk1JQSIsbnVsbCwiQVYiLCIzOTYiXSxbIk1JQSIsIjIwMjQtMDktMDEiLCJNQUQiLG51bGwsIklCIiwiNjEyNCJdLFsiTUFEIiwiMjAyNC0wOS0wMiIsIkNERyIsbnVsbCwiSUIiLCIzNDIyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Augusto Cesar Sandino International Airport",
+                        "id": "MGA",
+                        "time": "2024-09-01 12:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Miami International Airport",
+                        "id": "MIA",
+                        "time": "2024-09-01 17:25"
+                    },
+                    "duration": 165,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AA 2852",
+                    "ticket_also_sold_by": [
+                        "Iberia"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 121 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Miami International Airport",
+                        "id": "MIA",
+                        "time": "2024-09-01 21:35"
+                    },
+                    "arrival_airport": {
+                        "name": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+                        "id": "MAD",
+                        "time": "2024-09-02 12:35"
+                    },
+                    "duration": 540,
+                    "airplane": "Airbus A330",
+                    "airline": "Iberia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IB.png",
+                    "travel_class": "Premium Economy",
+                    "flight_number": "IB 6118",
+                    "extensions": [
+                        "Extra reclining seat",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 796 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+                        "id": "MAD",
+                        "time": "2024-09-02 15:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-09-02 18:00"
+                    },
+                    "duration": 125,
+                    "airplane": "Airbus A321",
+                    "airline": "Iberia",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IB.png",
+                    "travel_class": "Economy",
+                    "flight_number": "IB 3398",
+                    "legroom": "28 in",
+                    "extensions": [
+                        "Below average legroom (28 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 102 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 250,
+                    "name": "Miami International Airport",
+                    "id": "MIA"
+                },
+                {
+                    "duration": 200,
+                    "name": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+                    "id": "MAD"
+                }
+            ],
+            "total_duration": 1280,
+            "carbon_emissions": {
+                "this_flight": 1019000,
+                "typical_for_this_route": 778000,
+                "difference_percent": 31
+            },
+            "price": 2625,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "extensions": [
+                "1 checked bag up to 23 kg included",
+                "Fare non-refundable, taxes may be refundable",
+                "Ticket changes for a fee",
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "departure_token": "WyJDalJJUjJOdllqTldPVk5WVlVsQlNtVkZSa0ZDUnkwdExTMHRMUzB0TFc5clltUm9NMEZCUVVGQlIySlVTM3BCUVdWdlNrOUJFaFJCUVRJNE5USjhTVUkyTVRFNGZFbENNek01T0JvTENKMkNFQkFDR2dOVlUwUTRISENkZ2hBPSIsW1siTUdBIiwiMjAyNC0wOS0wMSIsIk1JQSIsbnVsbCwiQUEiLCIyODUyIl0sWyJNSUEiLCIyMDI0LTA5LTAxIiwiTUFEIixudWxsLCJJQiIsIjYxMTgiXSxbIk1BRCIsIjIwMjQtMDktMDIiLCJDREciLG51bGwsIklCIiwiMzM5OCJdXV0="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Augusto Cesar Sandino International Airport",
+                        "id": "MGA",
+                        "time": "2024-09-01 14:04"
+                    },
+                    "arrival_airport": {
+                        "name": "Tocumen International Airport Panama",
+                        "id": "PTY",
+                        "time": "2024-09-01 16:46"
+                    },
+                    "duration": 102,
+                    "airplane": "Boeing 737MAX 9 Passenger",
+                    "airline": "COPA",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
+                    "travel_class": "Economy",
+                    "flight_number": "CM 105",
+                    "ticket_also_sold_by": [
+                        "Air France"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 81 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Tocumen International Airport Panama",
+                        "id": "PTY",
+                        "time": "2024-09-01 19:45"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-09-02 13:00"
+                    },
+                    "duration": 615,
+                    "airplane": "Boeing 787",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AF 475",
+                    "legroom": "31 in",
+                    "extensions": [
+                        "Average legroom (31 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 583 kg"
+                    ],
+                    "overnight": true
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 179,
+                    "name": "Tocumen International Airport Panama",
+                    "id": "PTY"
+                }
+            ],
+            "total_duration": 896,
+            "carbon_emissions": {
+                "this_flight": 665000,
+                "typical_for_this_route": 778000,
+                "difference_percent": -15
+            },
+            "price": 2887,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "extensions": [
+                "Checked baggage for a fee",
+                "Fare non-refundable, taxes may be refundable",
+                "Ticket changes for a fee",
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "departure_token": "WyJDalJJUjJOdllqTldPVk5WVlVsQlNtVkZSa0ZDUnkwdExTMHRMUzB0TFc5clltUm9NMEZCUVVGQlIySlVTM3BCUVdWdlNrOUJFZ3REVFRFd05YeEJSalEzTlJvTENKN1BFUkFDR2dOVlUwUTRISENlenhFPSIsW1siTUdBIiwiMjAyNC0wOS0wMSIsIlBUWSIsbnVsbCwiQ00iLCIxMDUiXSxbIlBUWSIsIjIwMjQtMDktMDEiLCJDREciLG51bGwsIkFGIiwiNDc1Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Augusto Cesar Sandino International Airport",
+                        "id": "MGA",
+                        "time": "2024-09-01 14:04"
+                    },
+                    "arrival_airport": {
+                        "name": "Tocumen International Airport Panama",
+                        "id": "PTY",
+                        "time": "2024-09-01 16:46"
+                    },
+                    "duration": 102,
+                    "airplane": "Boeing 737MAX 9 Passenger",
+                    "airline": "COPA",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
+                    "travel_class": "Business Class",
+                    "flight_number": "CM 105",
+                    "ticket_also_sold_by": [
+                        "Air Europa"
+                    ],
+                    "extensions": [
+                        "Lie flat seat",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 122 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Tocumen International Airport Panama",
+                        "id": "PTY",
+                        "time": "2024-09-01 20:25"
+                    },
+                    "arrival_airport": {
+                        "name": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+                        "id": "MAD",
+                        "time": "2024-09-02 13:15"
+                    },
+                    "duration": 590,
+                    "airplane": "Boeing 787",
+                    "airline": "Air Europa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UX.png",
+                    "travel_class": "Business Class",
+                    "flight_number": "UX 56",
+                    "extensions": [
+                        "Lie flat seat",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 1980 kg"
+                    ],
+                    "overnight": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+                        "id": "MAD",
+                        "time": "2024-09-02 20:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-09-02 22:20"
+                    },
+                    "duration": 125,
+                    "airplane": "Airbus A319",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "travel_class": "Business Class",
+                    "flight_number": "AF 1101",
+                    "ticket_also_sold_by": [
+                        "Air Europa"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 177 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 219,
+                    "name": "Tocumen International Airport Panama",
+                    "id": "PTY"
+                },
+                {
+                    "duration": 420,
+                    "name": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+                    "id": "MAD"
+                }
+            ],
+            "total_duration": 1456,
+            "carbon_emissions": {
+                "this_flight": 2282000,
+                "typical_for_this_route": 778000,
+                "difference_percent": 193
+            },
+            "price": 4395,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "extensions": [
+                "1 checked bag up to 32 kg included",
+                "Fare non-refundable, taxes may be refundable",
+                "Ticket changes for a fee",
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "departure_token": "WyJDalJJUjJOdllqTldPVk5WVlVsQlNtVkZSa0ZDUnkwdExTMHRMUzB0TFc5clltUm9NMEZCUVVGQlIySlVTM3BCUVdWdlNrOUJFaEZEVFRFd05YeFZXRFUyZkVGR01URXdNUm9MQ1B2b0doQUNHZ05WVTBRNEhIRDc2Qm89IixbWyJNR0EiLCIyMDI0LTA5LTAxIiwiUFRZIixudWxsLCJDTSIsIjEwNSJdLFsiUFRZIiwiMjAyNC0wOS0wMSIsIk1BRCIsbnVsbCwiVVgiLCI1NiJdLFsiTUFEIiwiMjAyNC0wOS0wMiIsIkNERyIsbnVsbCwiQUYiLCIxMTAxIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Augusto Cesar Sandino International Airport",
+                        "id": "MGA",
+                        "time": "2024-09-01 12:40"
+                    },
+                    "arrival_airport": {
+                        "name": "Miami International Airport",
+                        "id": "MIA",
+                        "time": "2024-09-01 17:25"
+                    },
+                    "duration": 165,
+                    "airplane": "Boeing 737MAX 8 Passenger",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "Business Class",
+                    "flight_number": "AA 2852",
+                    "extensions": [
+                        "Standard recliner seat",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 181 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Miami International Airport",
+                        "id": "MIA",
+                        "time": "2024-09-01 19:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "time": "2024-09-02 09:05"
+                    },
+                    "duration": 535,
+                    "airplane": "Boeing 777",
+                    "airline": "American",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+                    "travel_class": "First Class",
+                    "flight_number": "AA 38",
+                    "extensions": [
+                        "Lie flat seat",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "On-demand video",
+                        "Carbon emissions estimate: 3032 kg"
+                    ],
+                    "overnight": true,
+                    "often_delayed_by_over_30_min": true
+                },
+                {
+                    "departure_airport": {
+                        "name": "Heathrow Airport",
+                        "id": "LHR",
+                        "time": "2024-09-02 11:55"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2024-09-02 14:15"
+                    },
+                    "duration": 80,
+                    "airplane": "Airbus A320",
+                    "airline": "British Airways",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+                    "travel_class": "Business Class",
+                    "flight_number": "BA 308",
+                    "ticket_also_sold_by": [
+                        "American"
+                    ],
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power & USB outlets",
+                        "Carbon emissions estimate: 79 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 105,
+                    "name": "Miami International Airport",
+                    "id": "MIA"
+                },
+                {
+                    "duration": 170,
+                    "name": "Heathrow Airport",
+                    "id": "LHR"
+                }
+            ],
+            "total_duration": 1055,
+            "carbon_emissions": {
+                "this_flight": 3294000,
+                "typical_for_this_route": 778000,
+                "difference_percent": 323
+            },
+            "price": 6266,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+            "extensions": [
+                "1 checked bag up to 23 kg included",
+                "Fare non-refundable, taxes may be refundable",
+                "Free change, possible fare difference",
+                "Bag and fare conditions depend on the return flight"
+            ],
+            "departure_token": "WyJDalJJUjJOdllqTldPVk5WVlVsQlNtVkZSa0ZDUnkwdExTMHRMUzB0TFc5clltUm9NMEZCUVVGQlIySlVTM3BCUVdWdlNrOUJFaEZCUVRJNE5USjhRVUV6T0h4Q1FUTXdPQm9MQ0pXZkpoQUNHZ05WVTBRNEhIQ1ZueVk9IixbWyJNR0EiLCIyMDI0LTA5LTAxIiwiTUlBIixudWxsLCJBQSIsIjI4NTIiXSxbIk1JQSIsIjIwMjQtMDktMDEiLCJMSFIiLG51bGwsIkFBIiwiMzgiXSxbIkxIUiIsIjIwMjQtMDktMDIiLCJDREciLG51bGwsIkJBIiwiMzA4Il1dXQ=="
+        }
+    ],
+    "price_insights": {
+        "lowest_price": 1584,
+        "price_level": "typical",
+        "typical_price_range": [
+            1400,
+            1700
+        ],
+        "price_history": [
+            [
+                1719900000,
+                1385
+            ],
+            [
+                1719986400,
+                1384
+            ],
+            [
+                1720072800,
+                1386
+            ],
+            [
+                1720159200,
+                1383
+            ],
+            [
+                1720245600,
+                1385
+            ],
+            [
+                1720332000,
+                1386
+            ],
+            [
+                1720418400,
+                1382
+            ],
+            [
+                1720504800,
+                1382
+            ],
+            [
+                1720591200,
+                1382
+            ],
+            [
+                1720677600,
+                1385
+            ],
+            [
+                1720764000,
+                1651
+            ],
+            [
+                1720850400,
+                1651
+            ],
+            [
+                1720936800,
+                1566
+            ],
+            [
+                1721023200,
+                1566
+            ],
+            [
+                1721109600,
+                1562
+            ],
+            [
+                1721196000,
+                1562
+            ],
+            [
+                1721282400,
+                1563
+            ],
+            [
+                1721368800,
+                1564
+            ],
+            [
+                1721455200,
+                1565
+            ],
+            [
+                1721541600,
+                1565
+            ],
+            [
+                1721628000,
+                1564
+            ],
+            [
+                1721714400,
+                1563
+            ],
+            [
+                1721800800,
+                1564
+            ],
+            [
+                1721887200,
+                1564
+            ],
+            [
+                1721973600,
+                1563
+            ],
+            [
+                1722060000,
+                1564
+            ],
+            [
+                1722146400,
+                1567
+            ],
+            [
+                1722232800,
+                1565
+            ],
+            [
+                1722319200,
+                1564
+            ],
+            [
+                1722405600,
+                1564
+            ],
+            [
+                1722492000,
+                1564
+            ],
+            [
+                1722578400,
+                1565
+            ],
+            [
+                1722664800,
+                1578
+            ],
+            [
+                1722751200,
+                1578
+            ],
+            [
+                1722837600,
+                1578
+            ],
+            [
+                1722924000,
+                1565
+            ],
+            [
+                1723010400,
+                1562
+            ],
+            [
+                1723096800,
+                1562
+            ],
+            [
+                1723183200,
+                1563
+            ],
+            [
+                1723269600,
+                1563
+            ],
+            [
+                1723356000,
+                1565
+            ],
+            [
+                1723442400,
+                1565
+            ],
+            [
+                1723528800,
+                1648
+            ],
+            [
+                1723615200,
+                1649
+            ],
+            [
+                1723701600,
+                1563
+            ],
+            [
+                1723788000,
+                1555
+            ],
+            [
+                1723874400,
+                1566
+            ],
+            [
+                1723960800,
+                1571
+            ],
+            [
+                1724047200,
+                1389
+            ],
+            [
+                1724133600,
+                1564
+            ],
+            [
+                1724220000,
+                1567
+            ],
+            [
+                1724306400,
+                1561
+            ],
+            [
+                1724392800,
+                1560
+            ],
+            [
+                1724479200,
+                1581
+            ],
+            [
+                1724565600,
+                1595
+            ],
+            [
+                1724652000,
+                1593
+            ],
+            [
+                1724738400,
+                1670
+            ],
+            [
+                1724824800,
+                1580
+            ],
+            [
+                1724911200,
+                1579
+            ],
+            [
+                1724997600,
+                1581
+            ],
+            [
+                1725084000,
+                1584
+            ]
+        ]
+    }
+}

@@ -1,0 +1,114 @@
+{
+  'flights': [
+    {
+      'departure_airport': {
+        'name': 'Augusto Cesar Sandino International Airport',
+        'id': 'MGA',
+        'time': '2024-08-30 13:20'
+      },
+      'arrival_airport': {
+        'name': 'George Bush Intercontinental Airport',
+        'id': 'IAH',
+        'time': '2024-08-30 17:46'
+      },
+      'duration': 206,
+      'airplane': 'Boeing 737',
+      'airline': 'United',
+      'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/UA.png',
+      'travel_class': 'Economy',
+      'flight_number': 'UA 1433',
+      'ticket_also_sold_by': [
+        'Air Canada'
+      ],
+      'legroom': '30 in',
+      'extensions': [
+        'Average legroom (30 in)',
+        'Stream media to your device',
+        'Carbon emissions estimate: 230 kg'
+      ],
+      'often_delayed_by_over_30_min': True
+    },
+    {
+      'departure_airport': {
+        'name': 'George Bush Intercontinental Airport',
+        'id': 'IAH',
+        'time': '2024-08-31 07:20'
+      },
+      'arrival_airport': {
+        'name': 'Toronto Pearson International Airport',
+        'id': 'YYZ',
+        'time': '2024-08-31 11:35'
+      },
+      'duration': 195,
+      'airplane': 'Airbus A220-300 Passenger',
+      'airline': 'Air Canada',
+      'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/AC.png',
+      'travel_class': 'Economy',
+      'flight_number': 'AC 590',
+      'legroom': '30 in',
+      'extensions': [
+        'Average legroom (30 in)',
+        'Wi-Fi for a fee',
+        'In-seat power & USB outlets',
+        'On-demand video',
+        'Carbon emissions estimate: 174 kg'
+      ]
+    },
+    {
+      'departure_airport': {
+        'name': 'Toronto Pearson International Airport',
+        'id': 'YYZ',
+        'time': '2024-08-31 20:45'
+      },
+      'arrival_airport': {
+        'name': 'Paris Charles de Gaulle Airport',
+        'id': 'CDG',
+        'time': '2024-09-01 10:10'
+      },
+      'duration': 445,
+      'airplane': 'Boeing 777',
+      'airline': 'Air Canada',
+      'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/AC.png',
+      'travel_class': 'Economy',
+      'flight_number': 'AC 872',
+      'legroom': '31 in',
+      'extensions': [
+        'Average legroom (31 in)',
+        'Wi-Fi for a fee',
+        'In-seat power & USB outlets',
+        'On-demand video',
+        'Carbon emissions estimate: 489 kg'
+      ],
+      'overnight': True
+    }
+  ],
+  'layovers': [
+    {
+      'duration': 814,
+      'name': 'George Bush Intercontinental Airport',
+      'id': 'IAH',
+      'overnight': True
+    },
+    {
+      'duration': 550,
+      'name': 'Toronto Pearson International Airport',
+      'id': 'YYZ'
+    }
+  ],
+  'total_duration': 2210,
+  'carbon_emissions': {
+    'this_flight': 895000,
+    'typical_for_this_route': 777000,
+    'difference_percent': 15
+  },
+  'price': 1872,
+  'type': 'Round trip',
+  'airline_logo': 'https://www.gstatic.com/flights/airline_logos/70px/multi.png',
+  'extensions': [
+    '1 checked bag up to 23 kg included',
+    'Fare non-refundable, taxes may be refundable',
+    'Free change, possible fare difference',
+    'Bag and fare conditions depend on the return flight'
+  ],
+  'departure_token': 'WyJDalJJYUdGd055MU5WRUZsUWsxQlJETlVjbEZDUnkwdExTMHRMUzB0YjJ0aVptOHhNa0ZCUVVGQlIySlNlVmx2VDJoYU16SkJFaEpWUVRFME16TjhRVU0xT1RCOFFVTTROeklhQ3dqc3RRc1FBaG9EVlZORU9CeHc3TFVMIixbWyJNR0EiLCIyMDI0LTA4LTMwIiwiSUFIIixudWxsLCJVQSIsIjE0MzMiXSxbIklBSCIsIjIwMjQtMDgtMzEiLCJZWVoiLG51bGwsIkFDIiwiNTkwIl0sWyJZWVoiLCIyMDI0LTA4LTMxIiwiQ0RHIixudWxsLCJBQyIsIjg3MiJdXV0='
+}
