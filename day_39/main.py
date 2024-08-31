@@ -3,6 +3,7 @@ from data_manager import Fligth_storage
 # load the json from api
 data = fligth_google("MGA","CDG",)
 flights_list = data.get_flights()
+import notifiation_manager
 
 #join all the flights in a list
 all_flights = flights_list["best_flights"] + flights_list["other_flights"]
@@ -20,7 +21,7 @@ for flight in all_flights:
     # print(flight["flights"][0]["airline"],flight["type"],flight["flights"][0]["travel_class"],round( int(flight["total_duration"])/60,2),len(flight["layovers"]),flight["price"])
 
 
-
+notifiation_manager.send_notification()
 
 
 # result.json()["best_flights"][1]["flights"][0]["departure_airport"]
