@@ -16,7 +16,7 @@ for flight in all_flights:
                                     flight_class=flight["flights"][0]["travel_class"],
                                     duration=round( int(flight["total_duration"])/60,2),
                                     layovers=len(flight["layovers"]),
-                                    price=flight["price"])
+                                    price=flight["price"],)
     flight_storage.save()
     # print(flight["flights"][0]["airline"],flight["type"],flight["flights"][0]["travel_class"],round( int(flight["total_duration"])/60,2),len(flight["layovers"]),flight["price"])
 
