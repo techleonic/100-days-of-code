@@ -62,4 +62,3 @@ for user in list_of_users:
     message = 'Subject: {}\n\n{}'.format("Airline Information", text)
     print(message)
     server.sendmail(sender,user["email"],message)
-server.quit()
