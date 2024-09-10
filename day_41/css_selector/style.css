@@ -1,0 +1,31 @@
+div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+}
+.text{
+    color: rgb(175, 79, 79);
+}
+
+#text-green{
+    color: green;
+}
+
+.blue-text,#h2{
+    color: blueviolet;
+    font-family: cursive;
+    font-weight:lighter;
+    font-style: oblique;
+}
+
+p[draggable="true"]{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    font-variant-caps:initial;
+}
+/*
+this is al selector
+*{
+    background-color: rgb(159, 187, 187);
+}*/
