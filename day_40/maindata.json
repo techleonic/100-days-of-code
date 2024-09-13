@@ -1,14 +1,14 @@
 {
     "search_metadata": {
-        "id": "66ddc20c48e668eb2a9946fe",
+        "id": "66e47a614a3fcf82fdce3f58",
         "status": "Success",
-        "json_endpoint": "https://serpapi.com/searches/17183971e17b4526/66ddc20c48e668eb2a9946fe.json",
-        "created_at": "2024-09-08 15:26:04 UTC",
-        "processed_at": "2024-09-08 15:26:04 UTC",
-        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&tfs=CBwQAhoeEgoyMDI0LTA5LTA5agcIARIDTUdBcgcIARIDTEFYGh4SCjIwMjQtMDktMTZqBwgBEgNMQVhyBwgBEgNNR0FCAQFIAXABmAEB",
-        "raw_html_file": "https://serpapi.com/searches/17183971e17b4526/66ddc20c48e668eb2a9946fe.html",
-        "prettify_html_file": "https://serpapi.com/searches/17183971e17b4526/66ddc20c48e668eb2a9946fe.prettify",
-        "total_time_taken": 6.75
+        "json_endpoint": "https://serpapi.com/searches/17183971e17b4526/66e47a614a3fcf82fdce3f58.json",
+        "created_at": "2024-09-13 17:46:09 UTC",
+        "processed_at": "2024-09-13 17:46:09 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&tfs=CBwQAhoeEgoyMDI0LTA5LTE0agcIARIDTUdBcgcIARIDTEFYGh4SCjIwMjQtMDktMjFqBwgBEgNMQVhyBwgBEgNNR0FCAQFIAXABmAEB",
+        "raw_html_file": "https://serpapi.com/searches/17183971e17b4526/66e47a614a3fcf82fdce3f58.html",
+        "prettify_html_file": "https://serpapi.com/searches/17183971e17b4526/66e47a614a3fcf82fdce3f58.prettify",
+        "total_time_taken": 2.13
     },
     "search_parameters": {
         "engine": "google_flights",
@@ -16,8 +16,8 @@
         "gl": "us",
         "departure_id": "MGA",
         "arrival_id": "LAX",
-        "outbound_date": "2024-09-09",
-        "return_date": "2024-09-16"
+        "outbound_date": "2024-09-14",
+        "return_date": "2024-09-21"
     },
     "best_flights": [
         {
@@ -26,19 +26,19 @@
                     "departure_airport": {
                         "name": "Augusto Cesar Sandino International Airport",
                         "id": "MGA",
-                        "time": "2024-09-09 19:05"
+                        "time": "2024-09-14 06:00"
                     },
                     "arrival_airport": {
                         "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
                         "id": "SAL",
-                        "time": "2024-09-09 19:55"
+                        "time": "2024-09-14 06:50"
                     },
                     "duration": 50,
                     "airplane": "Airbus A320",
                     "airline": "Avianca",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
                     "travel_class": "Economy",
-                    "flight_number": "AV 393",
+                    "flight_number": "AV 314",
                     "legroom": "29 in",
                     "extensions": [
                         "Below average legroom (29 in)",
@@ -51,12 +51,12 @@
                     "departure_airport": {
                         "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
                         "id": "SAL",
-                        "time": "2024-09-10 08:05"
+                        "time": "2024-09-14 08:05"
                     },
                     "arrival_airport": {
                         "name": "Los Angeles International Airport",
                         "id": "LAX",
-                        "time": "2024-09-10 12:20"
+                        "time": "2024-09-14 12:20"
                     },
                     "duration": 315,
                     "airplane": "Airbus A330",
@@ -74,22 +74,21 @@
             ],
             "layovers": [
                 {
-                    "duration": 730,
+                    "duration": 75,
                     "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
-                    "id": "SAL",
-                    "overnight": true
+                    "id": "SAL"
                 }
             ],
-            "total_duration": 1095,
+            "total_duration": 440,
             "carbon_emissions": {
                 "this_flight": 1295000,
-                "typical_for_this_route": 379000,
-                "difference_percent": 242
+                "typical_for_this_route": 376000,
+                "difference_percent": 244
             },
-            "price": 851,
+            "price": 834,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
-            "departure_token": "WyJDalJJVm5SeVgzQmhRMVptUlRCQlRUaG1TV2RDUnkwdExTMHRMUzB0TFhaM2EyVXhPVUZCUVVGQlIySmtkMmhGVGpGaVlUSkJFZ3RCVmpNNU0zeEJWalV5TWhvTENPQ1lCUkFDR2dOVlUwUTRISERnbUFVPSIsW1siTUdBIiwiMjAyNC0wOS0wOSIsIlNBTCIsbnVsbCwiQVYiLCIzOTMiXSxbIlNBTCIsIjIwMjQtMDktMTAiLCJMQVgiLG51bGwsIkFWIiwiNTIyIl1dXQ=="
+            "departure_token": "WyJDalJJUTJoT01sRkVaVkk1VUhOQlJsaG9Va0ZDUnkwdExTMHRMUzB0TFMxMmQyUmpOMEZCUVVGQlIySnJaVzFKVEZod2R6SkJFZ3RCVmpNeE5IeEJWalV5TWhvTENMU0xCUkFDR2dOVlUwUTRISEMwaXdVPSIsW1siTUdBIiwiMjAyNC0wOS0xNCIsIlNBTCIsbnVsbCwiQVYiLCIzMTQiXSxbIlNBTCIsIjIwMjQtMDktMTQiLCJMQVgiLG51bGwsIkFWIiwiNTIyIl1dXQ=="
         },
         {
             "flights": [
@@ -97,158 +96,12 @@
                     "departure_airport": {
                         "name": "Augusto Cesar Sandino International Airport",
                         "id": "MGA",
-                        "time": "2024-09-09 13:20"
-                    },
-                    "arrival_airport": {
-                        "name": "George Bush Intercontinental Airport",
-                        "id": "IAH",
-                        "time": "2024-09-09 17:46"
-                    },
-                    "duration": 206,
-                    "airplane": "Boeing 737",
-                    "airline": "United",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "UA 1433",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 239 kg"
-                    ],
-                    "often_delayed_by_over_30_min": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "George Bush Intercontinental Airport",
-                        "id": "IAH",
-                        "time": "2024-09-09 22:00"
-                    },
-                    "arrival_airport": {
-                        "name": "Los Angeles International Airport",
-                        "id": "LAX",
-                        "time": "2024-09-09 23:36"
-                    },
-                    "duration": 216,
-                    "airplane": "Boeing 737",
-                    "airline": "United",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "UA 2649",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power outlet",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 182 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 254,
-                    "name": "George Bush Intercontinental Airport",
-                    "id": "IAH"
-                }
-            ],
-            "total_duration": 676,
-            "carbon_emissions": {
-                "this_flight": 422000,
-                "typical_for_this_route": 379000,
-                "difference_percent": 11
-            },
-            "price": 1021,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-            "departure_token": "WyJDalJJVm5SeVgzQmhRMVptUlRCQlRUaG1TV2RDUnkwdExTMHRMUzB0TFhaM2EyVXhPVUZCUVVGQlIySmtkMmhGVGpGaVlUSkJFZzFWUVRFME16TjhWVUV5TmpRNUdnc0lwWjBHRUFJYUExVlRSRGdjY0tXZEJnPT0iLFtbIk1HQSIsIjIwMjQtMDktMDkiLCJJQUgiLG51bGwsIlVBIiwiMTQzMyJdLFsiSUFIIiwiMjAyNC0wOS0wOSIsIkxBWCIsbnVsbCwiVUEiLCIyNjQ5Il1dXQ=="
-        }
-    ],
-    "other_flights": [
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Augusto Cesar Sandino International Airport",
-                        "id": "MGA",
-                        "time": "2024-09-09 14:04"
-                    },
-                    "arrival_airport": {
-                        "name": "Tocumen International Airport Panama",
-                        "id": "PTY",
-                        "time": "2024-09-09 16:46"
-                    },
-                    "duration": 102,
-                    "airplane": "Boeing 737",
-                    "airline": "COPA",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-                    "travel_class": "Economy",
-                    "flight_number": "CM 105",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "In-seat USB outlet",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 94 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Tocumen International Airport Panama",
-                        "id": "PTY",
-                        "time": "2024-09-10 18:24"
-                    },
-                    "arrival_airport": {
-                        "name": "Los Angeles International Airport",
-                        "id": "LAX",
-                        "time": "2024-09-10 23:13"
-                    },
-                    "duration": 409,
-                    "airplane": "Boeing 737MAX 9 Passenger",
-                    "airline": "COPA",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-                    "travel_class": "Economy",
-                    "flight_number": "CM 302",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "In-seat USB outlet",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 326 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 1538,
-                    "name": "Tocumen International Airport Panama",
-                    "id": "PTY",
-                    "overnight": true
-                }
-            ],
-            "total_duration": 2049,
-            "carbon_emissions": {
-                "this_flight": 421000,
-                "typical_for_this_route": 379000,
-                "difference_percent": 11
-            },
-            "price": 815,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-            "departure_token": "WyJDalJJVm5SeVgzQmhRMVptUlRCQlRUaG1TV2RDUnkwdExTMHRMUzB0TFhaM2EyVXhPVUZCUVVGQlIySmtkMmhGVGpGaVlUSkJFZ3REVFRFd05YeERUVE13TWhvTENJVDhCQkFDR2dOVlUwUTRISENFL0FRPSIsW1siTUdBIiwiMjAyNC0wOS0wOSIsIlBUWSIsbnVsbCwiQ00iLCIxMDUiXSxbIlBUWSIsIjIwMjQtMDktMTAiLCJMQVgiLG51bGwsIkNNIiwiMzAyIl1dXQ=="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Augusto Cesar Sandino International Airport",
-                        "id": "MGA",
-                        "time": "2024-09-09 16:50"
+                        "time": "2024-09-14 16:50"
                     },
                     "arrival_airport": {
                         "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
                         "id": "SAL",
-                        "time": "2024-09-09 17:40"
+                        "time": "2024-09-14 17:40"
                     },
                     "duration": 50,
                     "airplane": "Airbus A320",
@@ -268,12 +121,12 @@
                     "departure_airport": {
                         "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
                         "id": "SAL",
-                        "time": "2024-09-09 18:55"
+                        "time": "2024-09-14 18:55"
                     },
                     "arrival_airport": {
                         "name": "Los Angeles International Airport",
                         "id": "LAX",
-                        "time": "2024-09-09 23:20"
+                        "time": "2024-09-14 23:20"
                     },
                     "duration": 325,
                     "airplane": "Airbus A320",
@@ -300,13 +153,13 @@
             "total_duration": 450,
             "carbon_emissions": {
                 "this_flight": 354000,
-                "typical_for_this_route": 379000,
-                "difference_percent": -7
+                "typical_for_this_route": 376000,
+                "difference_percent": -6
             },
-            "price": 1061,
+            "price": 1196,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
-            "departure_token": "WyJDalJJVm5SeVgzQmhRMVptUlRCQlRUaG1TV2RDUnkwdExTMHRMUzB0TFhaM2EyVXhPVUZCUVVGQlIySmtkMmhGVGpGaVlUSkJFZ3RCVmpNNU4zeEJWalV5T0JvTENNVzhCaEFDR2dOVlUwUTRISERGdkFZPSIsW1siTUdBIiwiMjAyNC0wOS0wOSIsIlNBTCIsbnVsbCwiQVYiLCIzOTciXSxbIlNBTCIsIjIwMjQtMDktMDkiLCJMQVgiLG51bGwsIkFWIiwiNTI4Il1dXQ=="
+            "departure_token": "WyJDalJJUTJoT01sRkVaVkk1VUhOQlJsaG9Va0ZDUnkwdExTMHRMUzB0TFMxMmQyUmpOMEZCUVVGQlIySnJaVzFKVEZod2R6SkJFZ3RCVmpNNU4zeEJWalV5T0JvTENNK2xCeEFDR2dOVlUwUTRISERQcFFjPSIsW1siTUdBIiwiMjAyNC0wOS0xNCIsIlNBTCIsbnVsbCwiQVYiLCIzOTciXSxbIlNBTCIsIjIwMjQtMDktMTQiLCJMQVgiLG51bGwsIkFWIiwiNTI4Il1dXQ=="
         },
         {
             "flights": [
@@ -314,84 +167,12 @@
                     "departure_airport": {
                         "name": "Augusto Cesar Sandino International Airport",
                         "id": "MGA",
-                        "time": "2024-09-09 13:20"
-                    },
-                    "arrival_airport": {
-                        "name": "George Bush Intercontinental Airport",
-                        "id": "IAH",
-                        "time": "2024-09-09 17:46"
-                    },
-                    "duration": 206,
-                    "airplane": "Boeing 737",
-                    "airline": "United",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "UA 1433",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 239 kg"
-                    ],
-                    "often_delayed_by_over_30_min": true
-                },
-                {
-                    "departure_airport": {
-                        "name": "George Bush Intercontinental Airport",
-                        "id": "IAH",
-                        "time": "2024-09-09 20:00"
-                    },
-                    "arrival_airport": {
-                        "name": "Los Angeles International Airport",
-                        "id": "LAX",
-                        "time": "2024-09-09 21:36"
-                    },
-                    "duration": 216,
-                    "airplane": "Boeing 737",
-                    "airline": "United",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-                    "travel_class": "Economy",
-                    "flight_number": "UA 2095",
-                    "legroom": "30 in",
-                    "extensions": [
-                        "Average legroom (30 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power outlet",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 182 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 134,
-                    "name": "George Bush Intercontinental Airport",
-                    "id": "IAH"
-                }
-            ],
-            "total_duration": 556,
-            "carbon_emissions": {
-                "this_flight": 422000,
-                "typical_for_this_route": 379000,
-                "difference_percent": 11
-            },
-            "price": 1191,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-            "departure_token": "WyJDalJJVm5SeVgzQmhRMVptUlRCQlRUaG1TV2RDUnkwdExTMHRMUzB0TFhaM2EyVXhPVUZCUVVGQlIySmtkMmhGVGpGaVlUSkJFZzFWUVRFME16TjhWVUV5TURrMUdnc0lvYUlIRUFJYUExVlRSRGdjY0tHaUJ3PT0iLFtbIk1HQSIsIjIwMjQtMDktMDkiLCJJQUgiLG51bGwsIlVBIiwiMTQzMyJdLFsiSUFIIiwiMjAyNC0wOS0wOSIsIkxBWCIsbnVsbCwiVUEiLCIyMDk1Il1dXQ=="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Augusto Cesar Sandino International Airport",
-                        "id": "MGA",
-                        "time": "2024-09-09 19:05"
+                        "time": "2024-09-14 19:05"
                     },
                     "arrival_airport": {
                         "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
                         "id": "SAL",
-                        "time": "2024-09-09 19:55"
+                        "time": "2024-09-14 19:55"
                     },
                     "duration": 50,
                     "airplane": "Airbus A320",
@@ -411,12 +192,12 @@
                     "departure_airport": {
                         "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
                         "id": "SAL",
-                        "time": "2024-09-10 02:00"
+                        "time": "2024-09-15 02:00"
                     },
                     "arrival_airport": {
                         "name": "Los Angeles International Airport",
                         "id": "LAX",
-                        "time": "2024-09-10 06:19"
+                        "time": "2024-09-15 06:19"
                     },
                     "duration": 319,
                     "airplane": "Boeing 737MAX 8 Passenger",
@@ -430,7 +211,7 @@
                         "Wi-Fi for a fee",
                         "In-seat power & USB outlets",
                         "On-demand video",
-                        "Carbon emissions estimate: 259 kg"
+                        "Carbon emissions estimate: 265 kg"
                     ],
                     "overnight": true
                 }
@@ -444,34 +225,36 @@
             ],
             "total_duration": 734,
             "carbon_emissions": {
-                "this_flight": 312000,
-                "typical_for_this_route": 379000,
-                "difference_percent": -18
+                "this_flight": 318000,
+                "typical_for_this_route": 376000,
+                "difference_percent": -15
             },
-            "price": 1270,
+            "price": 1271,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJVm5SeVgzQmhRMVptUlRCQlRUaG1TV2RDUnkwdExTMHRMUzB0TFhaM2EyVXhPVUZCUVVGQlIySmtkMmhGVGpGaVlUSkJFZ3hCVmpNNU0zeFZRVEUyTnpBYUN3aVg0QWNRQWhvRFZWTkVPQnh3bCtBSCIsW1siTUdBIiwiMjAyNC0wOS0wOSIsIlNBTCIsbnVsbCwiQVYiLCIzOTMiXSxbIlNBTCIsIjIwMjQtMDktMTAiLCJMQVgiLG51bGwsIlVBIiwiMTY3MCJdXV0="
-        },
+            "departure_token": "WyJDalJJUTJoT01sRkVaVkk1VUhOQlJsaG9Va0ZDUnkwdExTMHRMUzB0TFMxMmQyUmpOMEZCUVVGQlIySnJaVzFKVEZod2R6SkJFZ3hCVmpNNU0zeFZRVEUyTnpBYUN3alE0QWNRQWhvRFZWTkVPQnh3ME9BSCIsW1siTUdBIiwiMjAyNC0wOS0xNCIsIlNBTCIsbnVsbCwiQVYiLCIzOTMiXSxbIlNBTCIsIjIwMjQtMDktMTUiLCJMQVgiLG51bGwsIlVBIiwiMTY3MCJdXV0="
+        }
+    ],
+    "other_flights": [
         {
             "flights": [
                 {
                     "departure_airport": {
                         "name": "Augusto Cesar Sandino International Airport",
                         "id": "MGA",
-                        "time": "2024-09-09 06:00"
+                        "time": "2024-09-14 19:05"
                     },
                     "arrival_airport": {
                         "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
                         "id": "SAL",
-                        "time": "2024-09-09 06:50"
+                        "time": "2024-09-14 19:55"
                     },
                     "duration": 50,
                     "airplane": "Airbus A320",
                     "airline": "Avianca",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
                     "travel_class": "Economy",
-                    "flight_number": "AV 314",
+                    "flight_number": "AV 393",
                     "legroom": "29 in",
                     "extensions": [
                         "Below average legroom (29 in)",
@@ -484,12 +267,12 @@
                     "departure_airport": {
                         "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
                         "id": "SAL",
-                        "time": "2024-09-09 18:10"
+                        "time": "2024-09-15 18:10"
                     },
                     "arrival_airport": {
                         "name": "Los Angeles International Airport",
                         "id": "LAX",
-                        "time": "2024-09-09 22:35"
+                        "time": "2024-09-15 22:35"
                     },
                     "duration": 325,
                     "airplane": "Airbus A320",
@@ -508,21 +291,22 @@
             ],
             "layovers": [
                 {
-                    "duration": 680,
+                    "duration": 1335,
                     "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
-                    "id": "SAL"
+                    "id": "SAL",
+                    "overnight": true
                 }
             ],
-            "total_duration": 1055,
+            "total_duration": 1710,
             "carbon_emissions": {
                 "this_flight": 354000,
-                "typical_for_this_route": 379000,
-                "difference_percent": -7
+                "typical_for_this_route": 376000,
+                "difference_percent": -6
             },
-            "price": 1349,
+            "price": 1254,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
-            "departure_token": "WyJDalJJVm5SeVgzQmhRMVptUlRCQlRUaG1TV2RDUnkwdExTMHRMUzB0TFhaM2EyVXhPVUZCUVVGQlIySmtkMmhGVGpGaVlUSkJFZ3RCVmpNeE5IeEJWall5TUJvTENPZWRDQkFDR2dOVlUwUTRISERublFnPSIsW1siTUdBIiwiMjAyNC0wOS0wOSIsIlNBTCIsbnVsbCwiQVYiLCIzMTQiXSxbIlNBTCIsIjIwMjQtMDktMDkiLCJMQVgiLG51bGwsIkFWIiwiNjIwIl1dXQ=="
+            "departure_token": "WyJDalJJUTJoT01sRkVaVkk1VUhOQlJsaG9Va0ZDUnkwdExTMHRMUzB0TFMxMmQyUmpOMEZCUVVGQlIySnJaVzFKVEZod2R6SkJFZ3RCVmpNNU0zeEJWall5TUJvTENJN1RCeEFDR2dOVlUwUTRISENPMHdjPSIsW1siTUdBIiwiMjAyNC0wOS0xNCIsIlNBTCIsbnVsbCwiQVYiLCIzOTMiXSxbIlNBTCIsIjIwMjQtMDktMTUiLCJMQVgiLG51bGwsIkFWIiwiNjIwIl1dXQ=="
         },
         {
             "flights": [
@@ -530,12 +314,156 @@
                     "departure_airport": {
                         "name": "Augusto Cesar Sandino International Airport",
                         "id": "MGA",
-                        "time": "2024-09-09 14:04"
+                        "time": "2024-09-14 13:20"
+                    },
+                    "arrival_airport": {
+                        "name": "George Bush Intercontinental Airport",
+                        "id": "IAH",
+                        "time": "2024-09-14 17:46"
+                    },
+                    "duration": 206,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 1433",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 239 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "George Bush Intercontinental Airport",
+                        "id": "IAH",
+                        "time": "2024-09-15 05:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Los Angeles International Airport",
+                        "id": "LAX",
+                        "time": "2024-09-15 07:03"
+                    },
+                    "duration": 213,
+                    "airplane": "Boeing 737MAX 9 Passenger",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "UA 2431",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 153 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 704,
+                    "name": "George Bush Intercontinental Airport",
+                    "id": "IAH",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1123,
+            "carbon_emissions": {
+                "this_flight": 393000,
+                "typical_for_this_route": 376000,
+                "difference_percent": 5
+            },
+            "price": 1275,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "departure_token": "WyJDalJJUTJoT01sRkVaVkk1VUhOQlJsaG9Va0ZDUnkwdExTMHRMUzB0TFMxMmQyUmpOMEZCUVVGQlIySnJaVzFKVEZod2R6SkJFZzFWUVRFME16TjhWVUV5TkRNeEdnc0k4ZU1IRUFJYUExVlRSRGdjY1BIakJ3PT0iLFtbIk1HQSIsIjIwMjQtMDktMTQiLCJJQUgiLG51bGwsIlVBIiwiMTQzMyJdLFsiSUFIIiwiMjAyNC0wOS0xNSIsIkxBWCIsbnVsbCwiVUEiLCIyNDMxIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Augusto Cesar Sandino International Airport",
+                        "id": "MGA",
+                        "time": "2024-09-14 19:05"
+                    },
+                    "arrival_airport": {
+                        "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
+                        "id": "SAL",
+                        "time": "2024-09-14 19:55"
+                    },
+                    "duration": 50,
+                    "airplane": "Airbus A320",
+                    "airline": "Avianca",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AV 393",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 52 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
+                        "id": "SAL",
+                        "time": "2024-09-15 08:05"
+                    },
+                    "arrival_airport": {
+                        "name": "Los Angeles International Airport",
+                        "id": "LAX",
+                        "time": "2024-09-15 12:30"
+                    },
+                    "duration": 325,
+                    "airplane": "Airbus A320",
+                    "airline": "Avianca",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AV 522",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 300 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 730,
+                    "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
+                    "id": "SAL",
+                    "overnight": true
+                }
+            ],
+            "total_duration": 1105,
+            "carbon_emissions": {
+                "this_flight": 354000,
+                "typical_for_this_route": 376000,
+                "difference_percent": -6
+            },
+            "price": 1498,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
+            "departure_token": "WyJDalJJUTJoT01sRkVaVkk1VUhOQlJsaG9Va0ZDUnkwdExTMHRMUzB0TFMxMmQyUmpOMEZCUVVGQlIySnJaVzFKVEZod2R6SkJFZ3RCVmpNNU0zeEJWalV5TWhvTENKU1NDUkFDR2dOVlUwUTRISENVa2drPSIsW1siTUdBIiwiMjAyNC0wOS0xNCIsIlNBTCIsbnVsbCwiQVYiLCIzOTMiXSxbIlNBTCIsIjIwMjQtMDktMTUiLCJMQVgiLG51bGwsIkFWIiwiNTIyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Augusto Cesar Sandino International Airport",
+                        "id": "MGA",
+                        "time": "2024-09-14 14:04"
                     },
                     "arrival_airport": {
                         "name": "Tocumen International Airport Panama",
                         "id": "PTY",
-                        "time": "2024-09-09 16:46"
+                        "time": "2024-09-14 16:46"
                     },
                     "duration": 102,
                     "airplane": "Boeing 737",
@@ -555,45 +483,45 @@
                     "departure_airport": {
                         "name": "Tocumen International Airport Panama",
                         "id": "PTY",
-                        "time": "2024-09-09 18:19"
+                        "time": "2024-09-14 18:24"
                     },
                     "arrival_airport": {
                         "name": "Los Angeles International Airport",
                         "id": "LAX",
-                        "time": "2024-09-09 23:08"
+                        "time": "2024-09-14 23:13"
                     },
                     "duration": 409,
                     "airplane": "Boeing 737MAX 9 Passenger",
                     "airline": "COPA",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
                     "travel_class": "Economy",
-                    "flight_number": "CM 401",
+                    "flight_number": "CM 302",
                     "legroom": "30 in",
                     "extensions": [
                         "Average legroom (30 in)",
                         "In-seat USB outlet",
                         "Stream media to your device",
-                        "Carbon emissions estimate: 326 kg"
+                        "Carbon emissions estimate: 325 kg"
                     ]
                 }
             ],
             "layovers": [
                 {
-                    "duration": 93,
+                    "duration": 98,
                     "name": "Tocumen International Airport Panama",
                     "id": "PTY"
                 }
             ],
-            "total_duration": 604,
+            "total_duration": 609,
             "carbon_emissions": {
                 "this_flight": 421000,
-                "typical_for_this_route": 379000,
-                "difference_percent": 11
+                "typical_for_this_route": 376000,
+                "difference_percent": 12
             },
-            "price": 1526,
+            "price": 1996,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CM.png",
-            "departure_token": "WyJDalJJVm5SeVgzQmhRMVptUlRCQlRUaG1TV2RDUnkwdExTMHRMUzB0TFhaM2EyVXhPVUZCUVVGQlIySmtkMmhGVGpGaVlUSkJFZ3REVFRFd05YeERUVFF3TVJvTENQMm5DUkFDR2dOVlUwUTRISEQ5cHdrPSIsW1siTUdBIiwiMjAyNC0wOS0wOSIsIlBUWSIsbnVsbCwiQ00iLCIxMDUiXSxbIlBUWSIsIjIwMjQtMDktMDkiLCJMQVgiLG51bGwsIkNNIiwiNDAxIl1dXQ=="
+            "departure_token": "WyJDalJJUTJoT01sRkVaVkk1VUhOQlJsaG9Va0ZDUnkwdExTMHRMUzB0TFMxMmQyUmpOMEZCUVVGQlIySnJaVzFKVEZod2R6SkJFZ3REVFRFd05YeERUVE13TWhvTENLMlhEQkFDR2dOVlUwUTRISEN0bHd3PSIsW1siTUdBIiwiMjAyNC0wOS0xNCIsIlBUWSIsbnVsbCwiQ00iLCIxMDUiXSxbIlBUWSIsIjIwMjQtMDktMTQiLCJMQVgiLG51bGwsIkNNIiwiMzAyIl1dXQ=="
         },
         {
             "flights": [
@@ -601,211 +529,71 @@
                     "departure_airport": {
                         "name": "Augusto Cesar Sandino International Airport",
                         "id": "MGA",
-                        "time": "2024-09-09 12:30"
+                        "time": "2024-09-14 10:35"
                     },
                     "arrival_airport": {
-                        "name": "Aeropuerto Internacional Benito Ju\u00e1rez",
-                        "id": "MEX",
-                        "time": "2024-09-09 15:20"
+                        "name": "Miami International Airport",
+                        "id": "MIA",
+                        "time": "2024-09-14 15:05"
                     },
-                    "duration": 170,
-                    "airplane": "Embraer 190",
-                    "airline": "Aeromexico",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AM.png",
+                    "duration": 150,
+                    "airplane": "Airbus A320",
+                    "airline": "Avianca",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
                     "travel_class": "Economy",
-                    "flight_number": "AM 651",
-                    "legroom": "31 in",
+                    "flight_number": "AV 450",
+                    "legroom": "29 in",
                     "extensions": [
-                        "Average legroom (31 in)",
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
                         "Stream media to your device",
-                        "Carbon emissions estimate: 196 kg"
+                        "Carbon emissions estimate: 146 kg"
                     ]
                 },
                 {
                     "departure_airport": {
-                        "name": "Aeropuerto Internacional Benito Ju\u00e1rez",
-                        "id": "MEX",
-                        "time": "2024-09-10 06:50"
+                        "name": "Miami International Airport",
+                        "id": "MIA",
+                        "time": "2024-09-14 17:07"
                     },
                     "arrival_airport": {
-                        "name": "Los Angeles International Airport",
-                        "id": "LAX",
-                        "time": "2024-09-10 09:50"
+                        "name": "George Bush Intercontinental Airport",
+                        "id": "IAH",
+                        "time": "2024-09-14 19:08"
                     },
-                    "duration": 240,
-                    "airplane": "Boeing 787",
-                    "airline": "Aeromexico",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AM.png",
-                    "travel_class": "Economy",
-                    "flight_number": "AM 646",
-                    "legroom": "34 in",
-                    "extensions": [
-                        "Above average legroom (34 in)",
-                        "Wi-Fi for a fee",
-                        "In-seat power & USB outlets",
-                        "On-demand video",
-                        "Carbon emissions estimate: 199 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 930,
-                    "name": "Aeropuerto Internacional Benito Ju\u00e1rez",
-                    "id": "MEX",
-                    "overnight": true
-                }
-            ],
-            "total_duration": 1340,
-            "carbon_emissions": {
-                "this_flight": 396000,
-                "typical_for_this_route": 379000,
-                "difference_percent": 4
-            },
-            "price": 1537,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AM.png",
-            "departure_token": "WyJDalJJVm5SeVgzQmhRMVptUlRCQlRUaG1TV2RDUnkwdExTMHRMUzB0TFhaM2EyVXhPVUZCUVVGQlIySmtkMmhGVGpGaVlUSkJFZ3RCVFRZMU1YeEJUVFkwTmhvTENJYXdDUkFDR2dOVlUwUTRISENHc0FrPSIsW1siTUdBIiwiMjAyNC0wOS0wOSIsIk1FWCIsbnVsbCwiQU0iLCI2NTEiXSxbIk1FWCIsIjIwMjQtMDktMTAiLCJMQVgiLG51bGwsIkFNIiwiNjQ2Il1dXQ=="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Augusto Cesar Sandino International Airport",
-                        "id": "MGA",
-                        "time": "2024-09-09 12:30"
-                    },
-                    "arrival_airport": {
-                        "name": "Aeropuerto Internacional Benito Ju\u00e1rez",
-                        "id": "MEX",
-                        "time": "2024-09-09 15:20"
-                    },
-                    "duration": 170,
-                    "airplane": "Embraer 190",
-                    "airline": "Aeromexico",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AM.png",
-                    "travel_class": "Economy",
-                    "flight_number": "AM 651",
-                    "legroom": "31 in",
-                    "extensions": [
-                        "Average legroom (31 in)",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 196 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "Aeropuerto Internacional Benito Ju\u00e1rez",
-                        "id": "MEX",
-                        "time": "2024-09-09 19:10"
-                    },
-                    "arrival_airport": {
-                        "name": "Los Angeles International Airport",
-                        "id": "LAX",
-                        "time": "2024-09-09 22:19"
-                    },
-                    "duration": 249,
+                    "duration": 181,
                     "airplane": "Boeing 737",
-                    "airline": "Aeromexico",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AM.png",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
                     "travel_class": "Economy",
-                    "flight_number": "AM 648",
-                    "legroom": "31 in",
+                    "flight_number": "UA 2215",
+                    "legroom": "30 in",
                     "extensions": [
-                        "Average legroom (31 in)",
-                        "In-seat USB outlet",
-                        "On-demand video",
-                        "Carbon emissions estimate: 210 kg"
-                    ]
-                }
-            ],
-            "layovers": [
-                {
-                    "duration": 230,
-                    "name": "Aeropuerto Internacional Benito Ju\u00e1rez",
-                    "id": "MEX"
-                }
-            ],
-            "total_duration": 649,
-            "carbon_emissions": {
-                "this_flight": 407000,
-                "typical_for_this_route": 379000,
-                "difference_percent": 7
-            },
-            "price": 1570,
-            "type": "Round trip",
-            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AM.png",
-            "departure_token": "WyJDalJJVm5SeVgzQmhRMVptUlRCQlRUaG1TV2RDUnkwdExTMHRMUzB0TFhaM2EyVXhPVUZCUVVGQlIySmtkMmhGVGpGaVlUSkJFZ3RCVFRZMU1YeEJUVFkwT0JvTENLWEtDUkFDR2dOVlUwUTRISENseWdrPSIsW1siTUdBIiwiMjAyNC0wOS0wOSIsIk1FWCIsbnVsbCwiQU0iLCI2NTEiXSxbIk1FWCIsIjIwMjQtMDktMDkiLCJMQVgiLG51bGwsIkFNIiwiNjQ4Il1dXQ=="
-        },
-        {
-            "flights": [
-                {
-                    "departure_airport": {
-                        "name": "Augusto Cesar Sandino International Airport",
-                        "id": "MGA",
-                        "time": "2024-09-09 06:00"
-                    },
-                    "arrival_airport": {
-                        "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
-                        "id": "SAL",
-                        "time": "2024-09-09 06:50"
-                    },
-                    "duration": 50,
-                    "airplane": "Airbus A320",
-                    "airline": "Avianca",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
-                    "travel_class": "Economy",
-                    "flight_number": "AV 314",
-                    "legroom": "29 in",
-                    "extensions": [
-                        "Below average legroom (29 in)",
-                        "In-seat USB outlet",
+                        "Average legroom (30 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
                         "Stream media to your device",
-                        "Carbon emissions estimate: 52 kg"
-                    ]
-                },
-                {
-                    "departure_airport": {
-                        "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
-                        "id": "SAL",
-                        "time": "2024-09-09 08:15"
-                    },
-                    "arrival_airport": {
-                        "name": "George Bush Intercontinental Airport",
-                        "id": "IAH",
-                        "time": "2024-09-09 12:15"
-                    },
-                    "duration": 180,
-                    "airplane": "Airbus A320",
-                    "airline": "Avianca",
-                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AV.png",
-                    "travel_class": "Economy",
-                    "flight_number": "AV 368",
-                    "legroom": "29 in",
-                    "extensions": [
-                        "Below average legroom (29 in)",
-                        "In-seat USB outlet",
-                        "Stream media to your device",
-                        "Carbon emissions estimate: 167 kg"
-                    ]
+                        "Carbon emissions estimate: 140 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
                 },
                 {
                     "departure_airport": {
                         "name": "George Bush Intercontinental Airport",
                         "id": "IAH",
-                        "time": "2024-09-09 14:20"
+                        "time": "2024-09-14 20:00"
                     },
                     "arrival_airport": {
                         "name": "Los Angeles International Airport",
                         "id": "LAX",
-                        "time": "2024-09-09 15:56"
+                        "time": "2024-09-14 21:36"
                     },
                     "duration": 216,
                     "airplane": "Boeing 737",
                     "airline": "United",
                     "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
                     "travel_class": "Economy",
-                    "flight_number": "UA 1945",
+                    "flight_number": "UA 2095",
                     "legroom": "30 in",
                     "extensions": [
                         "Average legroom (30 in)",
@@ -813,62 +601,111 @@
                         "In-seat power outlet",
                         "Stream media to your device",
                         "Carbon emissions estimate: 182 kg"
-                    ],
-                    "often_delayed_by_over_30_min": true
+                    ]
                 }
             ],
             "layovers": [
                 {
-                    "duration": 85,
-                    "name": "El Salvador International Airport Saint \u00d3scar Arnulfo Romero y Gald\u00e1mez",
-                    "id": "SAL"
+                    "duration": 122,
+                    "name": "Miami International Airport",
+                    "id": "MIA"
                 },
                 {
-                    "duration": 125,
+                    "duration": 52,
                     "name": "George Bush Intercontinental Airport",
                     "id": "IAH"
                 }
             ],
-            "total_duration": 656,
+            "total_duration": 721,
             "carbon_emissions": {
-                "this_flight": 403000,
-                "typical_for_this_route": 379000,
-                "difference_percent": 6
+                "this_flight": 470000,
+                "typical_for_this_route": 376000,
+                "difference_percent": 25
             },
-            "price": 3105,
+            "price": 2806,
             "type": "Round trip",
             "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-            "departure_token": "WyJDalJJVm5SeVgzQmhRMVptUlRCQlRUaG1TV2RDUnkwdExTMHRMUzB0TFhaM2EyVXhPVUZCUVVGQlIySmtkMmhGVGpGaVlUSkJFaEpCVmpNeE5IeEJWak0yT0h4VlFURTVORFVhQ3dqaitSSVFBaG9EVlZORU9CeHc0L2tTIixbWyJNR0EiLCIyMDI0LTA5LTA5IiwiU0FMIixudWxsLCJBViIsIjMxNCJdLFsiU0FMIiwiMjAyNC0wOS0wOSIsIklBSCIsbnVsbCwiQVYiLCIzNjgiXSxbIklBSCIsIjIwMjQtMDktMDkiLCJMQVgiLG51bGwsIlVBIiwiMTk0NSJdXV0="
+            "departure_token": "WyJDalJJUTJoT01sRkVaVkk1VUhOQlJsaG9Va0ZDUnkwdExTMHRMUzB0TFMxMmQyUmpOMEZCUVVGQlIySnJaVzFKVEZod2R6SkJFaE5CVmpRMU1IeFZRVEl5TVRWOFZVRXlNRGsxR2dzSTI0OFJFQUlhQTFWVFJEZ2NjTnVQRVE9PSIsW1siTUdBIiwiMjAyNC0wOS0xNCIsIk1JQSIsbnVsbCwiQVYiLCI0NTAiXSxbIk1JQSIsIjIwMjQtMDktMTQiLCJJQUgiLG51bGwsIlVBIiwiMjIxNSJdLFsiSUFIIiwiMjAyNC0wOS0xNCIsIkxBWCIsbnVsbCwiVUEiLCIyMDk1Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "Augusto Cesar Sandino International Airport",
+                        "id": "MGA",
+                        "time": "2024-09-14 13:20"
+                    },
+                    "arrival_airport": {
+                        "name": "George Bush Intercontinental Airport",
+                        "id": "IAH",
+                        "time": "2024-09-14 17:46"
+                    },
+                    "duration": 206,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "Business Class",
+                    "flight_number": "UA 1433",
+                    "extensions": [
+                        "Standard recliner seat",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 359 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "George Bush Intercontinental Airport",
+                        "id": "IAH",
+                        "time": "2024-09-14 20:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Los Angeles International Airport",
+                        "id": "LAX",
+                        "time": "2024-09-14 21:36"
+                    },
+                    "duration": 216,
+                    "airplane": "Boeing 737",
+                    "airline": "United",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+                    "travel_class": "First Class",
+                    "flight_number": "UA 2095",
+                    "extensions": [
+                        "Standard recliner seat",
+                        "Wi-Fi for a fee",
+                        "In-seat power outlet",
+                        "Stream media to your device",
+                        "Carbon emissions estimate: 273 kg"
+                    ]
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 134,
+                    "name": "George Bush Intercontinental Airport",
+                    "id": "IAH"
+                }
+            ],
+            "total_duration": 556,
+            "carbon_emissions": {
+                "this_flight": 633000,
+                "typical_for_this_route": 376000,
+                "difference_percent": 68
+            },
+            "price": 4256,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+            "departure_token": "WyJDalJJUTJoT01sRkVaVkk1VUhOQlJsaG9Va0ZDUnkwdExTMHRMUzB0TFMxMmQyUmpOMEZCUVVGQlIySnJaVzFKVEZod2R6SkJFZzFWUVRFME16TjhWVUV5TURrMUdnc0kwZndaRUFJYUExVlRSRGdjY05IOEdRPT0iLFtbIk1HQSIsIjIwMjQtMDktMTQiLCJJQUgiLG51bGwsIlVBIiwiMTQzMyJdLFsiSUFIIiwiMjAyNC0wOS0xNCIsIkxBWCIsbnVsbCwiVUEiLCIyMDk1Il1dXQ=="
         }
     ],
     "price_insights": {
-        "lowest_price": 815,
+        "lowest_price": 834,
         "price_level": "high",
         "typical_price_range": [
-            460,
-            580
+            500,
+            590
         ],
         "price_history": [
-            [
-                1720591200,
-                442
-            ],
-            [
-                1720677600,
-                549
-            ],
-            [
-                1720764000,
-                560
-            ],
-            [
-                1720850400,
-                560
-            ],
-            [
-                1720936800,
-                560
-            ],
             [
                 1721023200,
                 561
@@ -879,11 +716,11 @@
             ],
             [
                 1721196000,
-                560
+                568
             ],
             [
                 1721282400,
-                560
+                566
             ],
             [
                 1721368800,
@@ -899,35 +736,35 @@
             ],
             [
                 1721628000,
-                549
+                556
             ],
             [
                 1721714400,
-                549
+                560
             ],
             [
                 1721800800,
-                549
+                560
             ],
             [
                 1721887200,
-                549
+                568
             ],
             [
                 1721973600,
-                549
+                568
             ],
             [
                 1722060000,
-                549
+                595
             ],
             [
                 1722146400,
-                550
+                596
             ],
             [
                 1722232800,
-                460
+                551
             ],
             [
                 1722319200,
@@ -947,11 +784,11 @@
             ],
             [
                 1722664800,
-                549
+                554
             ],
             [
                 1722751200,
-                549
+                554
             ],
             [
                 1722837600,
@@ -963,27 +800,27 @@
             ],
             [
                 1723010400,
-                548
+                557
             ],
             [
                 1723096800,
-                551
+                553
             ],
             [
                 1723183200,
-                552
+                553
             ],
             [
                 1723269600,
-                559
+                564
             ],
             [
                 1723356000,
-                559
+                565
             ],
             [
                 1723442400,
-                559
+                565
             ],
             [
                 1723528800,
@@ -999,23 +836,23 @@
             ],
             [
                 1723788000,
-                571
+                559
             ],
             [
                 1723874400,
-                577
+                561
             ],
             [
                 1723960800,
-                580
+                561
             ],
             [
                 1724047200,
-                527
+                518
             ],
             [
                 1724133600,
-                588
+                567
             ],
             [
                 1724220000,
@@ -1027,55 +864,55 @@
             ],
             [
                 1724392800,
-                582
+                572
             ],
             [
                 1724479200,
-                581
+                573
             ],
             [
                 1724565600,
-                593
+                585
             ],
             [
                 1724652000,
-                586
+                572
             ],
             [
                 1724738400,
-                560
+                548
             ],
             [
                 1724824800,
-                559
+                547
             ],
             [
                 1724911200,
-                559
+                507
             ],
             [
                 1724997600,
-                619
+                506
             ],
             [
                 1725084000,
-                650
+                549
             ],
             [
                 1725170400,
-                649
+                555
             ],
             [
                 1725256800,
-                626
+                548
             ],
             [
                 1725343200,
-                443
+                438
             ],
             [
                 1725429600,
-                557
+                548
             ],
             [
                 1725516000,
@@ -1083,15 +920,35 @@
             ],
             [
                 1725602400,
-                768
+                600
             ],
             [
                 1725688800,
-                815
+                608
             ],
             [
                 1725775200,
-                815
+                560
+            ],
+            [
+                1725861600,
+                681
+            ],
+            [
+                1725948000,
+                681
+            ],
+            [
+                1726034400,
+                750
+            ],
+            [
+                1726120800,
+                718
+            ],
+            [
+                1726207200,
+                834
             ]
         ]
     },
