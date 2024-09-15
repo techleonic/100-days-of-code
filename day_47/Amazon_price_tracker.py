@@ -28,11 +28,55 @@ def home_post():
         'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
         'Referer': 'https://www.google.com/'
     }
-    results = requests.get(url=url, headers=custom_headers)
+
+    all_headers = {
+        ":authority": "www.amazon.com",
+        ":method": "GET",
+        ":path": "/hz/wishlist/ls/HQUMSYI1CRRP/ref=nav_wishlist_lists_2",
+        ":scheme": "https",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9",
+        "cache-control": "max-age=0",
+        "cookie": 'aws-target-data=%7B%22support%22%3A%221%22%7D; aws-target-visitor-id=1714582344860-147872.44_0; regStatus=pre-register; session-id=131-2742780-9383028; ubid-main=133-4932664-3314317; lc-main=en_US; x-main="E@ckE6iL?jY1v9QOZL74Q98VWl4VaEJu77iCUisXXr2xjwLNe95iVmoH0mO70EL5"; at-main=Atza|IwEBIOWegiad7obnbxwzXZIfS6SmOH87DhzpgMhjmnU3H4uZ8gz4nmVf0cy7KddovRI62eMDhrZaLy2h91leMPJpq_nKK1G_DEvNUpEmZN0WRO8mSi170BTsvOsF_CQv7cjXe_B7goCFgzUEl1zl3zNmy1UXfy7IYPY2Us72CTFisxTIWCtHuvEdqBh5Jc25vVxUQ27aO_ZRQmepPh48R7zBrr8q4kkluPscyXkHgImXuyq_SA; sess-at-main="c4qXY6bNQRA7069MWnHRcHXsAftmVnW294fCP5Rn2CA="; sst-main=Sst1|PQFe4L9bQxMsTjnei08a3SIQCev0NtTPkxYFCZ1pk8dl2piCgagJns78sUzx_SRBhUNCN4PI9VaDhp3YqMK274Xtzi53ls9B_C1MPTjv1g2ftJ_F7GlfLWEYTifhxMqxy5Sf0JvFoS1P4i_pp-pWtaE4GNbkFbIoFU2LYQjG-PS6YiC8MC7eds253dK-589TMd0GlQcVGKYOk171TFcDtMraj2zn0zOal2naeEIN1Vwr2iA-PBerQ2TR-ai9BjeiKwj5pv2r7mFfOUH-k0HBWf1XTYOYDTbpBhvOOqRwfUA9fVo; session-id-time=2082787201l; i18n-prefs=USD; aws-ubid-main=850-6861481-7068717; AMCV_7742037254C95E840A4C98A6%40AdobeOrg=1585540135%7CMCIDTS%7C19981%7CMCMID%7C61442261875455912621297160986857391612%7CMCAAMLH-1726946492%7C4%7CMCAAMB-1726946492%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1726348892s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C4.4.0; session-token=QHuJZ3NnlEghUEmdmhy6WlagKK44RSxf8mDxttqGgDKlb2X/mNKRZ52lEchibd0OyTSCOvE0NeXqPOgNI2LHg1kkEx8bzCoHX38Qjzivo6VRGVSu4rvlIb8Z71FUbdxDZyPrv7pScB84M+3NbZIZ2ny8lpTsbNnrIgvwzhKkDm9PWoy/lODk+Lm0afAcqPWcEn9mt6oljmR2QBhBULFh9vUi6pV46WzAQ8UJPt0M6EBe6AW/FGplzbemJ59C4n2v4SBGuUBMLp2SM5odwtOjRTaPb8bKywI3nuSFlQEk+jrq0LTx1PPDqy4KcqS/e9bVHkbqjb3ksI9nDLh5dRs/cyFTA/4xMLPhItF9rORu2xdUDYUJ904rEooA+rDsnOh9; csm-hit=tb:MC1GS2TEJAMVA96K92DM+s-MC1GS2TEJAMVA96K92DM|1726424234875&t:1726424234875&adb:adblk_no',
+        "device-memory": "8",
+        "downlink": "5.05",
+        "dpr": "1",
+        "ect": "4g",
+        "priority": "u=0, i",
+        "rtt": "100",
+        "sec-ch-device-memory": "8",
+        "sec-ch-dpr": "1",
+        "sec-ch-ua": '"Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"',
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": '"Android"',
+        "sec-ch-ua-platform-version": '"6.0"',
+        "sec-ch-viewport-width": "858",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36",
+        "viewport-width": "858"
+    }
+
+    results = requests.get(url=url, headers=all_headers)
+    print(results.raise_for_status())
     product_page = results.text
+    with open("response.html", mode="w") as html_file:
+        html_file.write(results.text)
 
     #TODO: PRODUCT SOUP
     product_soup = BeautifulSoup(product_page, "html.parser")
+
+    #TODO: RESOLVE DE CATCHA
+    if(product_soup.find(name="form", attrs={"action":"/errors/validateCaptcha"}) != None):
+        print()
+        print("Resolve Catcha")
+        return f"<a>{results.request.url}</a><h1>Ni modo a resolcer el catcha</h1>"
+
+
     product_title = product_soup.find(name="span",
                                       id="productTitle").get_text().strip()
     product_price = product_soup.find(
@@ -40,7 +84,6 @@ def home_post():
         class_="a-price-whole").get_text().strip() + product_soup.find(
             name="span", class_="a-price-fraction").get_text().strip()
     f_product_price = float(product_price.replace(",", ""))
-    print()
 
     #TODO: SHEETY INSERT DATA INTO THE GOOGLE SHEET
     head = {"Authorization": os.environ['TOKEN']}
