@@ -3,6 +3,9 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from flask import Flask, render_template, request
+from PIL import Image
+from io import BytesIO
+import easyocr
 
 #TODO:CONFIGURE FLASK APP
 app = Flask(__name__)
@@ -61,21 +64,49 @@ def home_post():
         "viewport-width": "858"
     }
 
-    results = requests.get(url=url, headers=all_headers)
-    print(results.raise_for_status())
+    results = requests.get(url=url, headers=custom_headers)
+    # print(results.raise_for_status())
     product_page = results.text
-    with open("response.html", mode="w") as html_file:
-        html_file.write(results.text)
+    with open("response.html", "w", encoding="utf-8") as file:
+        file.write(product_page)
 
+    print("it got the page")
     #TODO: PRODUCT SOUP
     product_soup = BeautifulSoup(product_page, "html.parser")
 
     #TODO: RESOLVE DE CATCHA
     if(product_soup.find(name="form", attrs={"action":"/errors/validateCaptcha"}) != None):
-        print()
-        print("Resolve Catcha")
-        return f"<a>{results.request.url}</a><h1>Ni modo a resolcer el catcha</h1>"
+        catcha_img = product_soup.find(name="img").get("src")
+        amzn_tag, amzn_r_tag = product_soup.find_all(name="input", attrs={"type": "hidden"})
+        amzn = amzn_tag.get("value")
+        amzn_r = amzn_r_tag.get("value")
 
+
+        captcha_url = catcha_img
+        response = requests.get(captcha_url)
+        img = Image.open(BytesIO(response.content))
+
+        # TODO:IMAGE TO TEXT
+        reader = easyocr.Reader(['en'], gpu=False)
+        text_detections = reader.readtext(img, detail=0)
+        print()
+        # return ("<h1>"+f"amzn: {amzn} amznr: {amzn_r}   Catcha link: {catcha_img}   link: {amazon_link} text_detection:{text_detections[0]}</h1>")
+
+
+        #TODO: SUBMIT THE CATCHA
+        submit_url = "https://www.amazon.com/errors/validateCaptcha"
+        form_data = {
+            "amzn": amzn,
+            "amzn-r": amzn_r,
+            "field-keywords": text_detections[0].strip()  # Submit the CAPTCHA text from OCR
+        }
+
+        catcha_response = requests.get(submit_url, params=form_data)
+        product_soup =BeautifulSoup( catcha_response.text, "html.parser")
+        with open("aftercatcha.html", "w", encoding="utf-8") as file:
+            file.write(catcha_response.text)
+
+        print("catcha Resolve")
 
     product_title = product_soup.find(name="span",
                                       id="productTitle").get_text().strip()
