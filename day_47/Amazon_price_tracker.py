@@ -71,6 +71,7 @@ def home_post():
         file.write(product_page)
 
     print("it got the page")
+
     #TODO: PRODUCT SOUP
     product_soup = BeautifulSoup(product_page, "html.parser")
 
