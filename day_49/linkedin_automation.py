@@ -23,12 +23,16 @@ password_input = driver.find_element(By.ID, value="password")
 email_input.send_keys(os.getenv("EMAIL"),Keys.ENTER)
 password_input.send_keys(os.getenv("PASSWORD"), Keys.ENTER)
 
+
+
 driver.get("https://www.linkedin.com/jobs/search/?currentJobId=4017397765&distance=25&f_AL=true&geoId=105517145&keywords=python&origin=JOB_SEARCH_PAGE_JOB_FILTER&refresh=true&sortBy=R")
 # job =  driver.find_element(By.XPATH, value='//*[@id="ember326"]')
 # job.click()
 
 # request_btn =  driver.find_element(By.ID, value='ember52')
 # request_btn.click()
+
+
 
 list_of_requestes = driver.find_elements(By.CSS_SELECTOR, value='a[class="disabled ember-view job-card-container__link job-card-list__title job-card-list__title--link"')
 list_of_links = [request.get_attribute("href") for request in list_of_requestes if request.get_attribute("href")!= None]
