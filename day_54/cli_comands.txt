@@ -1,0 +1,8 @@
+pwd : prints current directory
+ls : list all the files and folders
+cd : change directory
+mkdir : make directory creates a folder
+touch : creates new file
+rm : remove file
+cd .. : exits current folder
+rm -rf : removes folder and everything inside
