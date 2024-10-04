@@ -7,7 +7,7 @@ def hello_world():
     return 'hello world'
 
 @app.route('/bye')
-def bye():
+def bye():gi
     return "bye"
 
 if __name__ == "__main__":
