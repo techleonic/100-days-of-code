@@ -17,7 +17,7 @@ def choice(num, choice_number = random.choice(range(0, 10)) ):
     elif num > choice_number:
         return "<h1>wrong number keep trying number is lower</h1>"
     else:
-        return "<h1><h1>wrong number keep trying number is higher</h1>"
+        return "<h1>wrong number keep trying number is higher</h1>"
 
 
 if __name__ == "__main__":
