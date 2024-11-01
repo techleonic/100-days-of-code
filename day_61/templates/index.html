@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block form %}
+<h4 class="mb-4 pb-lg-2">Please join us!</h4>
+<form action="#" method="post" class="custom-form membership-form shadow-lg" role="form">
+                                <h4 class="text-white mb-4">Become a member</h4>
+
+                                    <div class="form-floating">
+                                        <input type="text" name="full-name" id="full-name" class="form-control" placeholder="Full Name" required="">
+
+                                        <label for="floatingInput">Full Name</label>
+                                    </div>
+
+                                    <div class="form-floating">
+                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required="">
+
+                                        <label for="floatingInput">Email address</label>
+                                    </div>
+
+                                    <div class="form-floating">
+                                        <textarea class="form-control" id="message" name="message" placeholder="Describe message here"></textarea>
+
+                                        <label for="floatingTextarea"> Comments</label>
+                                    </div>
+
+                                    <button type="submit" class="form-control">Submit</button>
+                                </form>
+
+{% endblock %}
