@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block container %}
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">TItle</th>
+      <th scope="col">Author</th>
+      <th scope="col">Price</th>
+      <th scope="col">actions</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for book in books %}
+    <tr>
+      <th scope="row">{{ book[0] }}</th>
+      <td>{{ book[1] }}</td>
+      <td>{{ book[2] }}</td>
+      <td>{{ book[3] }} $</td>
+      <td><button class="btn btn-primary rounded-pill px-3" type="button">View</button></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

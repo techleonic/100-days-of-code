@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h2>Profile Form</h2>
+    <form method="POST" novalidate>
+        {{ form.hidden_tag() }}
+
+        <!-- Name -->
+        <div class="form-group">
+            {{ form.name.label }}
+            {{ form.name }}
+            {% for error in form.name.errors %}
+                <small class="text-danger">{{ error }}</small>
+            {% endfor %}
+        </div>
+
+        <!-- Bio -->
+        <div class="form-group">
+            {{ form.bio.label }}
+            {{ form.bio }}
+            {% for error in form.bio.errors %}
+                <small class="text-danger">{{ error }}</small>
+            {% endfor %}
+        </div>
+
+        <!-- Age -->
+        <div class="form-group">
+            {{ form.age.label }}
+            {{ form.age }}
+            {% for error in form.age.errors %}
+                <small class="text-danger">{{ error }}</small>
+            {% endfor %}
+        </div>
+
+        <!-- Salary -->
+        <div class="form-group">
+            {{ form.salary.label }}
+            {{ form.salary }}
+            {% for error in form.salary.errors %}
+                <small class="text-danger">{{ error }}</small>
+            {% endfor %}
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+            {{ form.email.label }}
+            {{ form.email }}
+            {% for error in form.email.errors %}
+                <small class="text-danger">{{ error }}</small>
+            {% endfor %}
+        </div>
+
+        <!-- Birthday -->
+        <div class="form-group">
+            {{ form.birthday.label }}
+            {{ form.birthday }}
+            {% for error in form.birthday.errors %}
+                <small class="text-danger">{{ error }}</small>
+            {% endfor %}
+        </div>
+
+        <!-- Remember Me -->
+        <div class="form-check mb-3">
+            {{ form.remember_me }}
+            {{ form.remember_me.label }}
+        </div>
+
+        <!-- Status -->
+        <div class="form-group">
+            {{ form.status.label }}
+            {% for subfield in form.status %}
+                <div class="form-check">
+                    {{ subfield }}
+                    {{ subfield.label }}
+                </div>
+            {% endfor %}
+        </div>
+
+        <!-- Gender -->
+        <div class="form-group">
+            {{ form.gender.label }}
+            {{ form.gender }}
+            {% for error in form.gender.errors %}
+                <small class="text-danger">{{ error }}</small>
+            {% endfor %}
+        </div>
+
+        <!-- Hobbies -->
+        <div class="form-group">
+            {{ form.hobbies.label }}
+            {{ form.hobbies }}
+            {% for error in form.hobbies.errors %}
+                <small class="text-danger">{{ error }}</small>
+            {% endfor %}
+        </div>
+
+        <!-- Password -->
+        <div class="form-group">
+            {{ form.password.label }}
+            {{ form.password }}
+            {% for error in form.password.errors %}
+                <small class="text-danger">{{ error }}</small>
+            {% endfor %}
+        </div>
+
+        <!-- Submit -->
+        <div class="form-group">
+            {{ form.submit }}
+        </div>
+    </form>
+
+    {% if submitted_data %}
+        <h3 class="mt-5">Submitted Data</h3>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Field</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for field, value in submitted_data.items() %}
+                    <tr>
+                        <td>{{ field|capitalize }}</td>
+                        <td>{{ value }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

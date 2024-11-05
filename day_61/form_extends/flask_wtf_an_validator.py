@@ -1,10 +1,8 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField
+from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import DataRequired
 from flask import Flask, render_template, Request
 
-class MyForm(FlaskForm):
-    name = StringField('Name', validators=[DataRequired()])
 
 
 app =  Flask(__name__)
