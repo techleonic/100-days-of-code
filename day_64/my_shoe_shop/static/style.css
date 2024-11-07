@@ -1,0 +1,34 @@
+/* styles.css */
+body, h1, h2, p {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-image: url('your-hero-image.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 80px 20px;
+  color: white;
+}
+
+.cta-btn {
+  background-color: #ff5722;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.featured {
+  padding: 20px;
+}
+
+.product-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

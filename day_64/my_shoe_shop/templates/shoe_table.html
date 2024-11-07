@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+{% from 'bootstrap5/table.html' import render_table %}
+{% block container %}
+<section class="contact_section layout_padding">
+    <div class="container px-0">
+      <div class="heading_container ">
+        <h2 class="">Enter Product</h2>
+      </div>
+    </div>
+    <div class="container container-bg">
+      <div class="col-12">
+          {{ render_table(shoes, show_actions=True,custom_actions=[('Edit','pencil-square',url_for("shoe_table")),('Edit','trash3-fill',url_for("shoe_table"))]) }}
+
+        </div>
+
+    </div>
+  </section>
+
+  <section class="shop_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Latest Products
+        </h2>
+      </div>
+      <div class="row">
+        <!--THIS IS THE PRODUCT CARD-->
+          {% for shoe in shoes %}
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="{{ shoe.filename }}" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>
+                    {{ shoe.title }}
+                </h6>
+                <h6>
+                  Price
+                  <span>
+                    {{ shoe.price }}$
+                  </span>
+                </h6>
+              </div>
+              <div class="new">
+                <span>
+                  New
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+          {% endfor %}
+      </div>
+      <!--THIS IS THE LIST OF PRODUCTS BUTTON-->
+      <div class="btn-box">
+        <a href="">
+          View All Products
+        </a>
+      </div>
+    </div>
+  </section>
+{% for shoe in shoes %}
+
+{% endfor %}
+{% endblock %}
