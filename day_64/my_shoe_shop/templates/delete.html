@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block container %}
+<section class="contact_section layout_padding">
+    <div class="container">
+      <div class="heading_container ">
+        <h2 class="">Are deleting this product</h2>
+      </div>
+    </div>
+    <div class="container container-bg">
+      <div class="col-12">
+        <div class="card">
+          <img class="card-img-top" src="{{ shoe.filename }}" alt="shoe">
+          <div class="card-body">
+            <h5 class="card-title">{{ shoe.title }}</h5>
+            <p class="card-text">{{ shoe.description }}</p>
+            <a href="{{ url_for('delete_complete', id=shoe.id)}}" class="btn btn-danger">Delete</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+{% endblock %}

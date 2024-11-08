@@ -9,7 +9,8 @@
     </div>
     <div class="container container-bg">
       <div class="col-12">
-          {{ render_table(shoes, show_actions=True,custom_actions=[('Edit','pencil-square',url_for("shoe_table")),('Edit','trash3-fill',url_for("shoe_table"))]) }}
+
+          {{ render_table(shoes, show_actions=True,custom_actions=[('Edit','pencil-square',('edit', [('id', ':id')])),('Delete','trash3-fill',('delete_item', [('id', ':id')]))]) }}
 
         </div>
 
@@ -61,7 +62,4 @@
       </div>
     </div>
   </section>
-{% for shoe in shoes %}
-
-{% endfor %}
 {% endblock %}

@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% from 'bootstrap5/form.html' import render_form %}
+{% block container %}
+<section class="contact_section layout_padding">
+    <div class="container px-0">
+      <div class="heading_container ">
+        <h2 class="">Edit_product</h2>
+      </div>
+    </div>
+    <div class="container container-bg">
+      <div class="col-12">
+          <img id="image-preview" src="{{img }}" alt="Default Image" width="150">
+          {{ render_form(form, novalidate=True) }}
+
+        </div>
+    </div>
+  </section>
+{% endblock %}
