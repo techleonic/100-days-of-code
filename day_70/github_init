@@ -1,0 +1,36 @@
+
+1- Git sing in
+
+2- Create a git repository
+
+2- set up repository:
+
+copy address: <name of remote rep>
+-    git remote add <origin> <repository url>
+
+pushes your local rep to remote rep in main branch
+-    git push -u origin main
+
+git branch -M
+
+3- gitignore
+    -keys
+    -Passwords
+    -settings files
+    -Server Configurations
+    -db connections
+
+create git gitignore:
+    touch .gitignore
+
+to see it:
+    ls -a
+
+add file into gitingnore:
+    .venv
+    secrets.txt
+all txt files:
+    *.txt
+all log files:
+    *.log
+

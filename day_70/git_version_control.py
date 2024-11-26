@@ -1,0 +1,26 @@
+
+# GET STATUS OF THE STAGING AREA (FILES THAT CHANGED IN LOCAL BUT NOT IN THE STAGING AREA)
+#   git status
+
+#TO ADD A FILE TO THE STAGING AREA
+#  add file.txt
+
+#TO COMMIT THE STAGING FILES
+#   git commit -m
+#-m ALLOWS YOU TO WRITE A MESSAGE
+
+#GET COMMITS THA WERE MAKE
+#   git log
+
+#ADD ALL FILE
+#   git add .  | git add all
+
+#GET THE DIFERENCES BETWEEN THE LOCAL AND THE STAGING FILE
+#   git diff file.txt
+
+#REVERS LOCAL CHANGES TO THE LAST COMMITED VERSION
+#   git checkout file.txt |  git checkout .
+
+
+
+

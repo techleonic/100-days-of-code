@@ -1,0 +1,14 @@
+
+Forking and Pulling
+
+fork is having a copy of a  repository in your github account to work in no cloning the rep to your local
+having their own version
+
+pulling a repo:
+    git fork
+    git clone <repo_url>
+
+git pull: Update your local working branch with commits from the remote, and update all remote tracking branches.
+git pull --rebase: Update your local working branch with commits from the remote, but rewrite history so any local commits occur after all new commits coming from the remote, avoiding a merge commit.
+git pull --force: This option allows you to force a fetch of a specific remote tracking branch when using the <refspec> option that would otherwise not be fetched due to conflicts. To force Git to overwrite your current branch to match the remote tracking branch, read below about using git reset.
+git pull --all: Fetch all remotes – thi
